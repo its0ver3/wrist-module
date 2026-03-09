@@ -1,0 +1,235 @@
+{
+  "id": "finger-arthritis",
+  "title": "Finger Arthritis (OA & RA)",
+  "subtitle": "Osteoarthritis and Rheumatoid Arthritis of the Fingers",
+  "moduleId": 3,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Arthritis of the fingers may be from OA or RA. Understanding the differences between these two conditions is essential for appropriate management."
+        },
+        {
+          "type": "heading",
+          "text": "Osteoarthritis (OA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Most often found in PIPs (Bouchard's nodes) and DIPs (Heberden's nodes)",
+            "Not symmetrical, but patients often have more than one joint affected independently",
+            "Chronic, progressive, degenerative condition affecting articular cartilage and subchondral bone",
+            "Joints are hypomobile due to disuse, capsular fibrosis, and muscle contracture"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Rheumatoid Arthritis (RA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Most often in the MCP joints — causes 'ulnar drift'",
+            "Systemic and often involves all MCP joints",
+            "Systemic, autoimmune, inflammatory condition affecting synovial membranes, articular cartilage, and eventually bone",
+            "Inflammatory process destroys synovial membranes and joint capsules, leading to instability and potential hypermobility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Onset is gradual. Treatment is sought usually only once ADLs have been affected."
+        },
+        {
+          "type": "heading",
+          "text": "Key Differences in Presentation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "OA: morning stiffness usually under 1 hour; mainly affects PIP & DIP",
+            "RA: morning stiffness usually over 2 hours; mainly affects MCP"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Have you been given a medical diagnosis?",
+            "Are there any bony changes (osteophytes, bone spurs, or fusion)? Are they confirmed by x-ray?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "paragraph",
+          "text": "ROM is typically reduced in multiple ranges in AROM, PROM and RROM."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "Important distinction: In OA, joints are hypomobile (disuse, capsular fibrosis, contracture). In RA, the inflammatory process can cause hypermobility and instability — this is what allows the MCPs to 'drift' towards the ulnar side."
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle shortening may occur in forearm muscles (flexors and extensors) and hand muscles",
+            "Muscle weakness may occur in forearm muscles (flexors and extensors) and hand muscles"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "paragraph",
+          "text": "None specific. Observation usually includes bony deformities. Differentials may include gout if confined to a single joint with acute onset."
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "RA Management"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Joint protection — braces, splints, and orthoses",
+            "Occupational therapist may provide adaptations to household items",
+            "Strengthening of intrinsic hand muscles ONLY"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Critical for RA",
+          "text": "Do NOT strengthen extrinsic hand muscles (e.g. for grip strength) in RA patients — this will increase ulnar drift due to the ulnar-sided forces of the extrinsic hand muscles. Only intrinsic hand muscle strengthening should be given."
+        },
+        {
+          "type": "heading",
+          "text": "OA Management"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Heat and joint mobilisation to maintain ROM and slow progression",
+            "Strengthening (intrinsic and extrinsic hand muscles are both appropriate)"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "In OA, joint mobilisation is indicated and has therapeutic benefit (as long as no osteophytes). In RA, joint mobilisation is contraindicated due to hypermobility and compromised joint structures."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treatment goals and approach will differ significantly between OA and RA. Your goals will be based on your assessment findings pertinent to the individual you are treating."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Should include: affected joints, type of arthritis, and severity. Example: 'Consistent with provided diagnosis of RA affecting the MCP of moderate severity.'"
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "heading",
+          "text": "RA Prognosis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prevention of joint deformities is key — once irreparable joint damage occurs, it is difficult to manage symptoms or improve function without orthosis or adaptive equipment. Patients often do not seek care until deformity has already occurred, so abnormal motor patterns and disuse atrophy are often quite profound."
+        },
+        {
+          "type": "heading",
+          "text": "OA Prognosis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patients with OA have a much lower risk of deformity and do not present with as much hand weakness. Grip and pinch strength are often regained relatively quickly. Although prognosis is good, OA is still a degenerative process requiring long-term management."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "Why should extrinsic hand muscle strengthening (e.g. grip strength) be avoided in patients with RA?",
+      "options": [
+        "It causes too much pain",
+        "It increases ulnar drift due to ulnar-sided forces",
+        "It worsens inflammation in the synovial membranes",
+        "It is unnecessary since these muscles are not affected"
+      ],
+      "correctIndex": 1,
+      "explanation": "Activation of the extrinsic hand muscles increases ulnar drift due to the ulnar-sided forces of the extrinsic hand muscles. Only intrinsic hand muscle strengthening should be given in RA."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which nodes are found at the DIP joints in osteoarthritis?",
+      "options": ["Bouchard's nodes", "Heberden's nodes", "Rheumatoid nodules", "Dupuytren nodules"],
+      "correctIndex": 1,
+      "explanation": "Heberden's nodes are found at the DIPs. Bouchard's nodes are found at the PIPs."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Morning stiffness lasting over 2 hours is more characteristic of:",
+      "options": ["Osteoarthritis", "Rheumatoid arthritis", "Dupuytren contracture", "Trigger finger"],
+      "correctIndex": 1,
+      "explanation": "RA usually has morning stiffness over 2 hours. OA usually has morning stiffness under 1 hour."
+    }
+  ]
+}

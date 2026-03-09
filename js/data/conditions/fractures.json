@@ -1,0 +1,288 @@
+{
+  "id": "fractures",
+  "title": "Fractures",
+  "subtitle": "Wrist and Hand Fractures",
+  "moduleId": 4,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Fracture of the wrist and hand is very common. Common types include distal radius, scaphoid, and hand (metacarpal) fractures."
+        },
+        {
+          "type": "heading",
+          "text": "Colle's Fracture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Most common distal radius fracture",
+            "Dorsal displacement of distal fracture segment",
+            "\"Dinner fork\" appearance",
+            "MOI: FOOSH on an extended wrist"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Smith's Fracture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Distal radius fracture",
+            "Volar displacement of distal fracture segment",
+            "\"Dinner spoon\" appearance",
+            "MOI: FOOSH on a flexed wrist"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Scaphoid Fracture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "MOI: FOOSH, particularly on extended and pronated wrist",
+            "Susceptible to avascular necrosis following fracture",
+            "If avascular necrosis occurs, SLAC wrist (a type of arthritis) may develop — can lead to instability and be very debilitating"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hand (Metacarpal) Fractures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "MOI: falls, crush injury, tendon avulsion, direct trauma",
+            "Swelling may or may not occur",
+            "Generalised hesitation to active motion is a strong sign of hand fracture"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Treatment Approaches"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ORIF (surgery): area immobilised in orthosis/brace, but early movement can begin shortly after",
+            "Non-surgical: cast/immobilisation, typically 4-6 weeks before any movement allowed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Common Post-Fracture Findings"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Edema",
+            "Limited ROM",
+            "Limited joint mobility",
+            "Muscle weakness",
+            "Secondary problems in shoulder and elbow function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Have you had consolidation (full radiographic healing) confirmed by MD?",
+            "Has your doctor cleared you to receive massage?",
+            "Did you have surgery?",
+            "Is there any internal fixation (rods, screws, pins, plates)?",
+            "Is there a surgical scar? How does the scar feel?",
+            "Were you immobilised? In what position? For how long? What type? When was it removed?",
+            "Do you know of any other tissue injury (muscle, ligament, blood vessel, or nerve)?",
+            "Have you noticed any changes to sensation in the area?",
+            "How is the tissue quality? Does the skin feel healthy? Have you noticed any muscle atrophy?",
+            "Have you received any other treatment? Can you describe it and whether it has helped?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM (Chronic/Post-Immobilisation)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM is usually reduced in all ranges, with greatest reductions in wrist ROM and supination",
+            "PROM is similar to AROM",
+            "RROM is reduced in all ranges"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "May be performed following consolidation",
+            "Can be used to develop a baseline for all muscles of the forearm and hand"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Joint play assessment may be performed following consolidation",
+            "Often shows capsular restrictions at the wrist"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Functional Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grip strength and different types of grip (precision, power) are generally reduced"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treat as per general fracture treatment. If surgery was performed, learn about and follow any post-surgical instructions."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals for Post-Immobilisation Rehabilitation"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Improve muscle and joint health",
+            "Restore neuromuscular control and resting muscle tone of area",
+            "Reduce contractures or adhesions and promote functional scar tissue",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Decrease adhesions and promote functional scar tissue on surgical scar using skin rolling and frictions",
+            "Promote joint health and normal joint play using PROM of wrist, hand, elbow, shoulder",
+            "Normalise muscle tone with origin-insertion techniques",
+            "Promote neuromuscular control using gentle muscle setting exercises",
+            "Improve overall upper limb function with petrissage, NMT, and MFR to scapula, shoulder, upper arm, forearm, and hand"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions — Pre-consolidation or Unknown Consolidation",
+          "text": "Do not traction the affected bone. Do not perform POP in either assessment or treatment. Do not use deep, aggressive techniques. Do not perform joint mobilisation or stretching."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "title": "Cautions — With Internal Fixation",
+          "text": "Modify hydrotherapy to avoid prolonged applications of extreme temperatures."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "title": "Cautions — Poor Tissue Health / Atrophy",
+          "text": "Avoid deep longitudinal strokes or aggressive manipulation of tissue. Avoid MFR if skin health is poor. Do not stretch atrophied muscle."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Restoration of full ROM may take 4-6 weeks. Restoration of strength (grip strength, intrinsic hand muscles) takes longer and may require up to 12 weeks."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Should include: stage (before or after consolidation), severity (how limited is function), and summary of overall impairments. Example: 'Patient presentation is consistent with the effects of post-immobilisation disuse to moderate severity. Full consolidation confirmed.'"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "A Colle's fracture involves dorsal displacement and results from a FOOSH on which type of wrist position?",
+      "options": ["Flexed wrist", "Extended wrist", "Ulnar deviated wrist", "Pronated wrist"],
+      "correctIndex": 1,
+      "explanation": "A Colle's fracture includes dorsal displacement of the distal fracture segment and typically occurs from a FOOSH on an extended wrist (\"dinner fork\" appearance)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Why is scaphoid fracture of particular concern?",
+      "options": [
+        "It always requires surgery",
+        "It is susceptible to avascular necrosis",
+        "It causes immediate wrist instability",
+        "It always involves the radius as well"
+      ],
+      "correctIndex": 1,
+      "explanation": "The scaphoid is susceptible to avascular necrosis following fracture, which can lead to SLAC wrist (a type of arthritis) and be very debilitating."
+    },
+    {
+      "type": "true_false",
+      "question": "It is safe to perform joint mobilisation and stretching before consolidation has been confirmed.",
+      "correctAnswer": false,
+      "explanation": "Pre-consolidation: Do not perform joint mobilisation or stretching. Do not traction the affected bone. Do not do POP in assessment or treatment. Do not use deep, aggressive techniques."
+    }
+  ]
+}

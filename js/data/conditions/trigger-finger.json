@@ -1,0 +1,213 @@
+{
+  "id": "trigger-finger",
+  "title": "Trigger Finger",
+  "subtitle": "Stenosing Tenosynovitis / Digital Tenosynovitis",
+  "moduleId": 2,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Trigger finger is caused by friction and inflammation of the FDS with development of an inflammatory nodule near the distal palmar crease."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Most commonly affects the A1 pulley (at MCP joint)",
+            "When the finger is flexed, the nodule slides proximally under the pulley",
+            "When the finger is extended, the nodule must slide back distally — this can be difficult",
+            "Can affect any finger, including the thumb"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Progression"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Palpable / audible click or clunk",
+            "Pain develops",
+            "Cannot actively extend finger — must use PROM to extend",
+            "May not be able to extend finger even passively (most severe)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Insidious onset of finger clicking and occasional locking",
+            "Recent history may include activity requiring increased grip frequency or force",
+            "Relative rest improves the condition, but clicking/locking returns once activity is reintroduced",
+            "Small palpable nodule may be felt around the MCP joint",
+            "Tenderness at rest and pain during extension"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is this a new activity, or recent change or sudden increase in activity?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM shows reduced extension with a click, lock, or clunk (may be observed and/or heard)",
+            "PROM is similar to AROM, with potential difficulty extending the finger",
+            "RROM shows reduced finger extension strength from disuse"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle weakness may occur in finger extensors from disuse",
+            "The muscle belly of FDS is likely to be normal length, despite the tendon gliding problems"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Differentiating from Dupuytren Contracture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dupuytren's: normally painless, consistent stiffness of the fingers, with dimpling of the palm",
+            "Trigger finger: normally painful with a clear clunky, clicking, or locking motion during extension"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Management is based on reducing inflammation and friction."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Modify or remove offending activities",
+            "Splints or orthoses (many varieties available)",
+            "Corticosteroid injection may be given",
+            "If unsuccessful, surgery may be elected — addresses the A1 pulley (not the tendon or nodule)"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Post-surgery: Because scar tissue follows surgery to the A1 pulley, PROM is used immediately after. Once AROM is full and pain-free, strengthening exercises are given."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Promote muscle balance in forearm and hand",
+            "Improve joint function (normal joint play)",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Promote joint nutrition with mid-range pain-free PROM of the hand and wrist",
+            "Restore normal joint play with joint mobilisations to wrist and carpals",
+            "Restore normal muscle balance with NMT & MFR to forearm",
+            "Decrease trigger point activity in muscles around hand and forearm"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not work on site or provide heat to the affected nodule (respect acute stage of healing precautions). Be careful with finger flexion and extension; avoid deep flexion of the finger."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The vast majority of cases resolve without the need for surgery. Resolution can be difficult — it is important to avoid aggravating the tendon or increasing inflammation or friction. Timelines are variable."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "Which structure is most commonly affected in trigger finger?",
+      "options": ["The tendon of FDS", "The A1 pulley at the MCP joint", "The UCL of the finger", "The DIP joint capsule"],
+      "correctIndex": 1,
+      "explanation": "Trigger finger most commonly affects the A1 pulley — a piece of connective tissue that keeps the tendons of FDS in place as they cross the MCP joints."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If surgery is performed for trigger finger, what structure is surgically addressed?",
+      "options": ["The FDS tendon", "The inflammatory nodule", "The A1 pulley", "The MCP joint capsule"],
+      "correctIndex": 2,
+      "explanation": "Surgery addresses the A1 pulley (not the tendon or nodule). Because scar tissue follows surgery, PROM is used immediately after."
+    },
+    {
+      "type": "true_false",
+      "question": "Heat should be applied directly to the affected nodule in trigger finger to reduce inflammation.",
+      "correctAnswer": false,
+      "explanation": "Do not work on site or provide heat to the affected nodule — acute stage of healing precautions should be respected."
+    }
+  ]
+}

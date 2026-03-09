@@ -1,0 +1,273 @@
+{
+  "id": "cmc1-oa",
+  "title": "CMC 1 Osteoarthritis",
+  "subtitle": "First Carpometacarpal Joint Osteoarthritis",
+  "moduleId": 3,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "First CMC OA is common in older adults. CMC 1 OA can be quite disabling due to the importance of the thumb in most functional activities."
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "The thumb accounts for 40-50% of hand function, and the hand accounts for 90% of upper limb function."
+        },
+        {
+          "type": "paragraph",
+          "text": "With degeneration, the joint space narrows, leading to relative instability of the first CMC (which is highly mobile to begin with) and pain. Pain is normally felt around the anatomical snuffbox and/or thenar eminence, especially with thumb movement."
+        },
+        {
+          "type": "paragraph",
+          "text": "CMC 1 OA can lead to injury to the UCL of MCP 1 through a chain of compensations: thenar contracture → reduced thumb extension → compensatory excessive abduction → valgus stress at MCP 1."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pain with movement felt mainly in the region of the snuffbox. Pain is worse in the morning but improves with some movement and the use of heat."
+        },
+        {
+          "type": "heading",
+          "text": "Pain-Provoking Activities"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gripping",
+            "Pinching",
+            "Radial deviation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pain leads to disuse and then loss of function. Elderly may even avoid eating due to pain. It is common for people with CMC 1 OA to have OA in multiple joints or both hands."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "Acutely swollen, red, taut, and warm joints are NOT expected with OA — these signs suggest RA instead."
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Are you aware of any bony changes in the joint or bone spurs?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wrist ROM may have pain with radial deviation (compressive force on CMC 1)",
+            "CMC 1 OA is the most likely condition if thumb pain is recreated during radial deviation of the wrist",
+            "Thumb ROM may be reduced and painful in all ranges, especially abduction and extension",
+            "Thumb RROM is painful over the CMC in multiple ranges"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle shortening may occur in thenar muscles — particularly flexors and adductors",
+            "Muscle weakness may occur in intrinsic hand muscles — thenar group and central compartment group",
+            "Pain and disuse may lead to atrophy of the first dorsal interosseous manus muscle"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Joint play assessments may be decreased in the CMC",
+            "UCL & RCL stress test of the thumb may show laxity secondary to CMC degenerative changes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Joint Protection / Education"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify ADLs and hobbies that stress the CMC",
+            "Create adaptations and behaviour cues to make modifications habitual",
+            "Modifications may need to be indefinite due to chronic, progressive nature of OA"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Strengthening"
+        },
+        {
+          "type": "list",
+          "items": [
+            "First dorsal interosseous muscle is best to support the CMC joint",
+            "Isometric strengthening once adequate ROM has been restored",
+            "Using putty as a source of resistance is effective"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "ROM & Stretching"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Massage and stretching of thenar muscles — particularly flexors and adductors — to prevent contractures",
+            "Thumb ball rolling exercise to preserve or improve web space"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Joint Mobilisation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CMC joint mobilisation and distraction to prevent worsening stiffness",
+            "Make sure there are no bony blocks to motion or osteophytes"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Orthosis"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Available in neoprene, rubber, plastic",
+            "Should be fitted and advised by an MD or technician",
+            "Incorporate task-specific or hobby-specific activities into care plan to maintain adherence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals for Osteoarthritis Management"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Promote joint nutrition",
+            "Improve joint function (normal joint play)",
+            "Improve muscle function to support joint structures",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Promote joint nutrition with mid-range pain-free PROM of the thumb (careful not to go to end-range)",
+            "Restore normal joint play with joint mobilisations to CMC 1",
+            "Improve ROM with MFR to palmar fascia and pin and stretch to thenar muscles",
+            "Restore normal muscle balance with NMT & MFR to forearm",
+            "Reduce soreness with hand massage",
+            "Reduce pain with distraction to CMC and joint play to carpals and metacarpals",
+            "Decrease trigger point activity in muscles around hand and forearm"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not mobilise CMC or take thumb to full ROM if osteophytes are present or abnormal bone to bone end feel occurs. Avoid joint compression and be careful with POP."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ultimately, OA is a chronic, progressive condition. However, improvements in pain and hand function may be achieved in 4-12 weeks. The longer the condition has been present, the longer it will take for initial improvements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Weekly treatment for 6 weeks should be an initial treatment plan, with treatment thereafter more spaced out, as long as the person is able to follow a home care plan of pain-free movement and intrinsic hand muscle strengthening."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "If thumb pain is recreated during radial deviation of the wrist, what is the most likely condition?",
+      "options": ["De Quervain's tenosynovitis", "TFCC injury", "CMC 1 Osteoarthritis", "UCL of MCP 1 sprain"],
+      "correctIndex": 2,
+      "explanation": "CMC 1 OA is the most likely condition present if thumb pain is recreated during radial deviation of the wrist, because radial deviation is a compressive force on the CMC 1."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which sign would suggest RA rather than OA in a patient with thumb joint pain?",
+      "options": [
+        "Morning stiffness less than 1 hour",
+        "Pain with gripping activities",
+        "Acutely swollen, red, taut, and warm joint",
+        "Pain around the anatomical snuffbox"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acutely swollen, red, taut, and warm joints are not expected with OA — they suggest RA instead."
+    },
+    {
+      "type": "true_false",
+      "question": "Joint mobilisation of the CMC is safe to perform even when osteophytes are present.",
+      "correctAnswer": false,
+      "explanation": "Do not mobilise CMC or take thumb to full ROM if osteophytes are present or abnormal bone-to-bone end feel occurs."
+    }
+  ]
+}

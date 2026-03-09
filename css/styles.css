@@ -1,0 +1,73 @@
+/* Custom styles beyond Tailwind CDN */
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Smooth scrolling within lesson content */
+#lesson-content {
+  scroll-behavior: smooth;
+}
+
+/* Prose overrides for lesson content */
+.prose h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  line-height: 1.7;
+}
+
+/* Quiz option hover states */
+.quiz-option {
+  transition: all 0.15s ease;
+}
+
+/* Hide scrollbar on mobile section nav */
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+.overflow-x-auto {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Sidebar scrollbar styling */
+aside::-webkit-scrollbar {
+  width: 4px;
+}
+aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+aside::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+
+/* Page transitions */
+#app {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Progress bar animation */
+[style*="width"] {
+  transition: width 0.5s ease;
+}

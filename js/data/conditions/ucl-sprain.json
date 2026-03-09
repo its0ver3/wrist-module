@@ -1,0 +1,252 @@
+{
+  "id": "ucl-sprain",
+  "title": "UCL of MCP 1 Sprain",
+  "subtitle": "Gamekeeper's Thumb / Skier's Thumb",
+  "moduleId": 3,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "UCL dysfunction is the most common cause of ulnar sided thumb pain. The ulnar side of the 1st MCP (the UCL) is vulnerable to instability because it is located between the highly stable interphalangeal joint and the highly-mobile CMC joint."
+        },
+        {
+          "type": "paragraph",
+          "text": "UCL injury may be the result of:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Acute trauma — valgus stress to the distal thumb or a fall",
+            "Repetitive stress — related to manipulating objects, especially occupational",
+            "Secondary injury — following CMC 1 OA, which causes thenar contracture → reduced thumb extension → compensatory excessive abduction → valgus stress at MCP 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ulnar-sided MCP pain, either acute or gradual onset. In cases of acute trauma or repetitive stress, the person can usually identify the root of their symptoms. If secondary to CMC 1 OA, it will be more insidious and less clear."
+        },
+        {
+          "type": "heading",
+          "text": "Symptoms"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ulnar-sided thumb pain",
+            "Difficulty gripping and pinching"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If suspecting arthritis, it is important to be clear if it is OA or RA that is present"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "If there is a traumatic onset and swelling around the first digit, x-ray should be used to rule out fracture."
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wrist ROM is probably fairly normal but may show signs of muscle tightness in reduced ranges",
+            "Thumb ROM may show reduced extension due to thenar contracture; the end range of abduction is likely to be painful",
+            "Thumb RROM in opposition is likely to be painful and weak"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle shortening may occur in thenar muscles (e.g. flexors and adductor)",
+            "Muscle weakness may occur due to pain with gripping or pinching motions (FPL, FPB, APL, APB, opponens pollicis)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "UCL stress test of the thumb is positive",
+            "Pain without laxity = mild injury",
+            "Laxity with a firm end feel = moderate injury",
+            "Laxity with a soft end feel = severe injury"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Functional Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tasks requiring gripping or pinching are likely to be painful and weak"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Severe Injuries (Grade 3 — Rupture)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Usually require surgery."
+        },
+        {
+          "type": "heading",
+          "text": "Mild or Moderate Injuries (Grade 1 & 2)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brace, splint, or orthosis for 2-6 weeks",
+            "Gentle AROM encouraged during protection to prevent disuse effects",
+            "Pain-free muscle setting and isometrics",
+            "Focus on first dorsal interosseous muscle — the most helpful muscular support for the healing ligament"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "Progressive loading should only be introduced once stress testing is negative. Until then, emphasize pain-free ROM, muscle setting, and isometric exercises."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals for Ligament Sprain Rehabilitation"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Promote a functional scar and reduce adhesions at site of ligament injury",
+            "Restore neuromuscular control and resting muscle tone of the muscles around the joint",
+            "Restore normal range of motion (muscle balance and joint integrity around a joint)",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Treatment Areas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neck, chest, shoulder, upper arm, forearm, and hand; include scapula if related to goals."
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reduce adhesions around UCL with pain-free PROM and gentle skin rolling",
+            "Promote normal resting muscle tone of thumb flexors, thumb adductors, and 1st dorsal interossei with muscle stripping and specific compression",
+            "Decrease TrP activity in muscles in the area based on presentation",
+            "Improve quality of AROM with joint play to the carpals and metacarpals",
+            "Decrease flexion contractures with MFR and stretching to thenar muscles"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not perform valgus or medial gapping of 1st MCP. Be cautious with passive or end range thumb abduction and circumduction."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Non-surgical injuries (mild or moderate), if protected adequately and provoking factors are eliminated or significantly reduced, may recover in 3-10 weeks."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "A clinical impression for sprain should include: affected ligament, severity, and stage of healing. Example: 'Consistent with mild UCL of MCP 1 sprain in the chronic stage of healing.'"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the most common cause of ulnar sided thumb pain?",
+      "options": ["TFCC injury", "UCL of MCP 1 dysfunction", "De Quervain's tenosynovitis", "CMC 1 Osteoarthritis"],
+      "correctIndex": 1,
+      "explanation": "UCL dysfunction is the most common cause of ulnar sided thumb pain, as stated in the course materials."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "During a UCL stress test of the thumb, laxity with a soft end feel indicates what severity of injury?",
+      "options": ["Mild injury", "Moderate injury", "Severe injury", "No injury present"],
+      "correctIndex": 2,
+      "explanation": "Laxity with a soft end feel is a severe injury. Pain without laxity = mild; laxity with firm end feel = moderate; laxity with soft end feel = severe."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which muscle provides the most helpful muscular support for a healing UCL of MCP 1?",
+      "options": ["Flexor pollicis longus", "First dorsal interosseous", "Opponens pollicis", "Adductor pollicis"],
+      "correctIndex": 1,
+      "explanation": "The 1st dorsal interossei manus muscle is the most helpful muscular support for the healing ligament."
+    }
+  ]
+}

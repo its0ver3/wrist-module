@@ -1,0 +1,210 @@
+{
+  "id": "de-quervain",
+  "title": "De Quervain's Tenosynovitis",
+  "subtitle": "First Dorsal Compartment Tenosynovitis",
+  "moduleId": 2,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "De Quervain's tenosynovitis is an overuse condition, particularly of activities involving repeated ulnar deviation of the wrist. It occurs due to friction between the APL and EPB tendons within their sheath in the first dorsal compartment."
+        },
+        {
+          "type": "paragraph",
+          "text": "As with all tenosynovitis conditions, movement is the most provoking factor (as opposed to isometric load)."
+        },
+        {
+          "type": "heading",
+          "text": "Three Overlapping Radial Wrist Conditions"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "De Quervain's — pain felt distal to the extensor retinaculum",
+            "Intersection syndrome — pain felt proximal to the extensor retinaculum",
+            "Wartenberg syndrome — involves the superficial branch of the radial nerve, manifests as paresthesia"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Treatment of all three is similar."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Gradual onset",
+            "Overuse of wrist, especially ulnar deviation and thumb movements",
+            "Paresthesia is NOT expected — its presence suggests Wartenberg syndrome"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is this a new activity, or recent change or sudden increase in activity?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM shows pain with ulnar deviation and flexion of the wrist and movements of the thumb",
+            "PROM is similar to AROM but may not be as provocative",
+            "RROM of APL & EPB is generally painful but not to the same extent as AROM (because in neutral position the tendons aren't moving through the irritated sheath)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle weakness may occur in APL and EPB",
+            "MMT of these muscles may rule out muscle strain"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Finkelstein test will be positive",
+            "Joint play assessment of the wrist may be helpful — if inadequate joint play for deviations is present, motions require greater muscle effort",
+            "Restoring ulnar glide and radial glide of the wrist may provide important pain relief"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Identify and modify irritating activity (e.g. switch hands, use power tools instead of manual)",
+            "Orthoses to prevent ulnar deviation — more effective when combined with corticosteroid injection",
+            "Strengthening: symptom-free isometrics before progressing to isotonics",
+            "Exercises should use precise positioning given potential to increase tendon friction"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "If paresthesia is present, the person should avoid any compression over the wrist (jewellery, wrist bands). The radial nerve is the most superficial structure of the distal radial forearm and is highly susceptible to external compression."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reduce adhesions around the tendon sheath",
+            "Promote normal resting muscle tone of the affected muscles",
+            "Promote normal joint play and reduced fascial restrictions in area",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reduce adhesions around APL & EPB tendon sheath with skin rolling and MFR",
+            "Promote normal resting muscle tone of APL & EPB using segmental muscle stripping, petrissage, and dynamic release",
+            "Maintain neuromuscular control with gentle isometric muscle setting",
+            "Decrease tension in posterior forearm with petrissage and work on superficial extensors",
+            "Restore normal joint play with radiocarpal mobilisations and carpal joint play",
+            "Reduce fascial restriction with intercompartmental MFR and deep MFR"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not friction or put direct pressure down into the affected tendon sheath. Avoid active or passive movement of the thumb unless clearly pain-free. Avoid heat directly over the tendon sheath which may be inflamed."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Provided that the provoking activities are identified and can be reduced or adequately modified, most people have symptoms resolved within 3-6 weeks."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "Which special test is positive in De Quervain's tenosynovitis?",
+      "options": ["Phalen's test", "Finkelstein test", "Tinel's sign", "UCL stress test"],
+      "correctIndex": 1,
+      "explanation": "The Finkelstein test will be positive in De Quervain's tenosynovitis."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which two tendons are affected in De Quervain's tenosynovitis?",
+      "options": ["FPL and FPB", "APL and EPB", "FCU and ECU", "FDS and FDP"],
+      "correctIndex": 1,
+      "explanation": "De Quervain's involves friction between the Abductor Pollicis Longus (APL) and Extensor Pollicis Brevis (EPB) within their sheath in the first dorsal compartment."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If a patient with radial wrist pain reports paresthesia, which condition should be suspected?",
+      "options": ["De Quervain's tenosynovitis", "Intersection syndrome", "Wartenberg syndrome", "CMC 1 OA"],
+      "correctIndex": 2,
+      "explanation": "Paresthesia is not expected in De Quervain's — its presence suggests Wartenberg syndrome, which involves the superficial branch of the radial nerve."
+    }
+  ]
+}

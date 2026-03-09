@@ -1,0 +1,266 @@
+{
+  "id": "fpl-tenosynovitis",
+  "title": "FPL Tenosynovitis",
+  "subtitle": "Flexor Pollicis Longus Tenosynovitis",
+  "moduleId": 2,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tenosynovitis denotes irritation of a tendon within a tendon sheath. Tendon sheaths are found in areas where tendons cross over bones or bony prominences."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tendinous sheath of the FPL muscle (sometimes called the radial bursa) begins just proximal to the carpal tunnel before angling around the scaphoid and trapezium to the thumb."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Overuse condition with gradual onset",
+            "Main complaint is pain",
+            "Pain most commonly at A1 pulley — at the base of the proximal phalanx of the thumb"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Palmar thumb pain, most commonly reported after an activity requiring thumb movement."
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "With tenosynovitis, irritation is between the tendon and the sheath. Therefore, AROM is usually more provocative than MMT or RROM because the tendon is pulled through the sheath during movement. Most provoking of all is resisted concentric testing (movement with load)."
+        },
+        {
+          "type": "heading",
+          "text": "Common Provoking Activities"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gripping",
+            "Rock climbing",
+            "Texting"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "FPL tenosynovitis sometimes occurs following internal fixation of a radius fracture."
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Is this a new activity, or recent change or sudden increase in activity?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM of thumb movement is painful, especially flexion and extension. A clicking may be present",
+            "Isometric testing (e.g. RROM) is often pain-free"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle shortening is not common",
+            "Muscle weakness is not common — testing FPL or FPB may rule out strain"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "UCL & RCL of the 1st MCP may be used to rule out ligament sprain"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Functional Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Any task requiring significant thumb movement is likely to cause pain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Activity Modification"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reduce or temporarily remove provoking factor",
+            "Taping or splinting may be used"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pain Modulation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "NSAIDs and hydrotherapy may help"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Exercises"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Isometrics are safe to perform",
+            "Avoid exercises requiring thumb movement (tendon excursion through sheath)"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "A good guideline for progression: the patient is ready for AROM or concentric exercises once able to perform 10 repetitions of 60-second isometric holds without symptoms."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals for Tenosynovitis Rehabilitation"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Reduce adhesions around the tendon sheath",
+            "Promote normal resting muscle tone of the affected muscle",
+            "Promote normal joint play and reduced fascial restrictions in area",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Reduce adhesions around FPL tendon sheath with skin rolling and MFR",
+            "Promote normal resting muscle tone of FPL using segmental muscle stripping, petrissage, and origin-insertion",
+            "Maintain neuromuscular control with gentle isometric muscle setting",
+            "Decrease TrP activity in muscles in the area based on presentation",
+            "Decrease tension in anterior forearm with forearm flexor MFR and petrissage",
+            "Restore normal joint play with metacarpal and carpal joint play and radiocarpal mobilisations",
+            "Reduce fascial restriction with intercompartmental MFR"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not friction or put direct pressure down into the FPL tendon sheath. Avoid active or passive movement of the thumb unless clearly pain-free. Avoid heat directly over the tendon sheath which may be inflamed."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Expected timelines are highly variable. It is very difficult to offload the thumb as it is used in so many vital ADLs. Adherence to modifications and protection of the area are most important in determining the timeline for recovery."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mild cases in adherent individuals may be cleared up in 10-21 days in the best case scenarios."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "A clinical impression for tenosynovitis should include: affected tendon, severity, and whether chronic or flared-up. Example: 'Consistent with FPL tenosynovitis of mild severity in the flare-up state.'"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "In FPL tenosynovitis, which type of muscle testing is usually MORE provocative?",
+      "options": ["Isometric testing (RROM)", "Active ROM (AROM)", "Passive ROM (PROM)", "All are equally provocative"],
+      "correctIndex": 1,
+      "explanation": "AROM is usually more provocative than RROM because during active movement the tendon is pulled through the irritated sheath. The most provoking is resisted concentric testing (movement with load)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is a good guideline for when a patient with FPL tenosynovitis is ready to progress to AROM exercises?",
+      "options": [
+        "When pain is reduced by 50%",
+        "After 2 weeks of rest regardless of symptoms",
+        "When able to perform 10 reps of 60-second isometric holds without symptoms",
+        "When PROM is full and pain-free"
+      ],
+      "correctIndex": 2,
+      "explanation": "The patient is ready for AROM or concentric exercises once able to perform 10 repetitions of 60-second isometric holds without symptoms."
+    },
+    {
+      "type": "true_false",
+      "question": "Heat should be applied directly over the FPL tendon sheath to reduce inflammation.",
+      "correctAnswer": false,
+      "explanation": "Avoid heat directly over the tendon sheath which may be inflamed. This is listed as a specific caution in the treatment guidelines."
+    }
+  ]
+}

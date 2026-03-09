@@ -1,0 +1,215 @@
+{
+  "id": "differential-dx",
+  "title": "Differential Diagnosis Principles",
+  "subtitle": "Key Differentiating Features Across Wrist & Hand Conditions",
+  "moduleId": 1,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Differential diagnosis is the process of distinguishing between conditions that share similar signs and symptoms. This lesson summarises the key differentiating features across the wrist and hand conditions covered in this course."
+        },
+        {
+          "type": "paragraph",
+          "text": "Understanding differential diagnosis helps you identify the most likely condition and tailor your treatment approach appropriately."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Location-Based Differentiation",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Ulnar-Sided Wrist/Thumb Pain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "UCL of MCP 1 — ulnar-sided thumb pain, positive UCL stress test",
+            "TFCC injury — deep ulnar wrist pain, positive ulnocarpal stress test, difficulty with weight bearing"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Radial-Sided Wrist Pain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "De Quervain's — pain distal to extensor retinaculum, positive Finkelstein test",
+            "Intersection syndrome — pain proximal to extensor retinaculum",
+            "Wartenberg syndrome — paresthesia in radial nerve distribution",
+            "CMC 1 OA — pain around snuffbox, worse with radial deviation"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Palmar / Finger Pain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "FPL tenosynovitis — palmar thumb pain, AROM more provocative than RROM",
+            "Trigger finger — clicking/locking during extension, palpable nodule",
+            "Dupuytren's — painless, consistent stiffness, dimpling of palm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Key Differentiating Features",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "OA vs RA"
+        },
+        {
+          "type": "list",
+          "items": [
+            "OA: morning stiffness < 1 hour, affects PIP & DIP, hypomobility, Bouchard's/Heberden's nodes",
+            "RA: morning stiffness > 2 hours, affects MCP, hypermobility possible, ulnar drift, systemic"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Dupuytren vs Trigger Finger"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dupuytren: painless, consistent stiffness, dimpling of palm, affects fascia",
+            "Trigger finger: painful, clicking/clunking/locking during extension, nodule at A1 pulley"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tenosynovitis: AROM vs RROM"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "In tenosynovitis conditions (FPL, De Quervain's), AROM is generally MORE provocative than RROM because the tendon must move through the irritated sheath. If isometric testing is more provocative, consider muscle strain instead."
+        },
+        {
+          "type": "heading",
+          "text": "TFCC vs Wrist UCL Sprain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "TFCC: pain with overpressure of ulnar deviation and pronation, NOT with radial deviation",
+            "Wrist UCL sprain: ulnar pain with overpressure of radial deviation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Assessment Strategy",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Systematic Approach"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Gather a thorough history — onset, location, aggravating/easing factors",
+            "Perform ROM testing (AROM, PROM, RROM) to identify patterns",
+            "Perform relevant muscle testing",
+            "Perform applicable special tests",
+            "Assess functional abilities",
+            "Consider differentials based on findings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Treatment Implications",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Accurate differential diagnosis is critical because the treatment approach differs significantly between conditions. For example:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Joint mobilisation is beneficial for OA but contraindicated for RA",
+            "Extrinsic hand strengthening is appropriate for OA but not RA (increases ulnar drift)",
+            "Deep pressure is avoided in tenosynovitis but may be used in some sprain treatments",
+            "Heat is beneficial for OA but should be avoided directly over inflamed tendon sheaths"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Clinical Impressions",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Each condition has a specific clinical impression format. Key elements to include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sprain: affected ligament, severity, stage of healing",
+            "Tenosynovitis: affected tendon, severity, chronic or flared-up",
+            "Osteoarthritis: affected joint, severity",
+            "Dupuytren: duration, severity",
+            "Trigger finger: affected tendon, severity",
+            "TFCC: onset (traumatic or gradual), chronicity",
+            "Fracture: stage (pre/post consolidation), severity, summary of impairments"
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "A patient presents with painless, consistent stiffness of the ring finger and dimpling of the palm. Which condition is most likely?",
+      "options": ["Trigger finger", "Dupuytren contracture", "FDS tenosynovitis", "RA of the MCP"],
+      "correctIndex": 1,
+      "explanation": "Dupuytren's is normally painless with consistent stiffness and dimpling of the palm. Trigger finger is typically painful with clicking/locking."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "In tenosynovitis conditions (FPL, De Quervain's), which type of testing is generally MORE provocative?",
+      "options": ["Isometric testing (RROM)", "Active ROM (AROM)", "Passive ROM (PROM)", "Manual muscle testing"],
+      "correctIndex": 1,
+      "explanation": "In tenosynovitis, AROM is generally more provocative because the tendon must move through the irritated sheath during active movement."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Why is joint mobilisation contraindicated in RA but indicated in OA?",
+      "options": [
+        "RA joints are too painful for mobilisation",
+        "RA causes hypermobility and compromised joint structures; OA causes hypomobility",
+        "OA joints have better blood supply for healing",
+        "RA is systemic so local treatment doesn't help"
+      ],
+      "correctIndex": 1,
+      "explanation": "In OA, joints are hypomobile (mobilisation helps). In RA, the inflammatory process destroys synovial membranes and joint capsules, leading to instability and potential hypermobility (mobilisation is contraindicated)."
+    }
+  ]
+}

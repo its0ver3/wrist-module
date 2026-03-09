@@ -1,0 +1,8 @@
+{
+  "name": "wrist-conditions-learning-modules",
+  "version": "1.0.0",
+  "description": "Wrist & Hand Conditions Learning Platform — FT300 PT500",
+  "scripts": {
+    "dev": "npx serve . -l 3000 -s"
+  }
+}

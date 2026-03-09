@@ -1,0 +1,110 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "title": "Foundations",
+      "description": "Core concepts for understanding wrist and hand conditions",
+      "icon": "foundation",
+      "color": "emerald",
+      "bloomLevel": "Remember & Understand",
+      "lessons": [
+        {
+          "id": "strains-sprains",
+          "title": "Strains & Sprains Overview",
+          "bloomTag": "Remember",
+          "order": 1
+        },
+        {
+          "id": "differential-dx",
+          "title": "Differential Diagnosis Principles",
+          "bloomTag": "Understand",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tendon Conditions",
+      "description": "Tenosynovitis and tendon-related pathologies of the wrist and hand",
+      "icon": "fitness_center",
+      "color": "blue",
+      "bloomLevel": "Understand & Apply",
+      "lessons": [
+        {
+          "id": "fpl-tenosynovitis",
+          "title": "FPL Tenosynovitis",
+          "bloomTag": "Understand/Apply",
+          "order": 1
+        },
+        {
+          "id": "de-quervain",
+          "title": "De Quervain's Tenosynovitis",
+          "bloomTag": "Understand/Apply",
+          "order": 2
+        },
+        {
+          "id": "trigger-finger",
+          "title": "Trigger Finger",
+          "bloomTag": "Apply",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Joint & Connective Tissue",
+      "description": "Arthritis, ligament injuries, and connective tissue conditions",
+      "icon": "join_inner",
+      "color": "purple",
+      "bloomLevel": "Apply & Analyze",
+      "lessons": [
+        {
+          "id": "ucl-sprain",
+          "title": "UCL of MCP 1 Sprain",
+          "bloomTag": "Apply/Analyze",
+          "order": 1
+        },
+        {
+          "id": "cmc1-oa",
+          "title": "CMC 1 Osteoarthritis",
+          "bloomTag": "Apply/Analyze",
+          "order": 2
+        },
+        {
+          "id": "finger-arthritis",
+          "title": "Finger Arthritis (OA & RA)",
+          "bloomTag": "Analyze",
+          "order": 3
+        },
+        {
+          "id": "dupuytren",
+          "title": "Dupuytren Contracture",
+          "bloomTag": "Analyze",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Trauma & Complex Injuries",
+      "description": "TFCC injuries, fractures, and complex post-traumatic conditions",
+      "icon": "emergency",
+      "color": "rose",
+      "bloomLevel": "Analyze & Evaluate",
+      "lessons": [
+        {
+          "id": "tfcc-injury",
+          "title": "TFCC Injury",
+          "bloomTag": "Analyze/Evaluate",
+          "order": 1
+        },
+        {
+          "id": "fractures",
+          "title": "Fractures",
+          "bloomTag": "Evaluate",
+          "order": 2
+        }
+      ]
+    }
+  ]
+}

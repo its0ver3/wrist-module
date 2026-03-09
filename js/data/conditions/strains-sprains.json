@@ -1,0 +1,198 @@
+{
+  "id": "strains-sprains",
+  "title": "Strains & Sprains Overview",
+  "subtitle": "Strains, Sprains, Tendinopathies & Bursitis of the Wrist",
+  "moduleId": 1,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This lesson provides an overview of general strains, sprains, tendinopathies, and bursitis of the wrist. While specific conditions (like De Quervain's or TFCC injury) are covered in later modules, this overview covers the general principles."
+        },
+        {
+          "type": "heading",
+          "text": "Strains"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muscle strains affecting the wrist are not very common."
+        },
+        {
+          "type": "heading",
+          "text": "Tendinopathies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tendinopathies affecting the wrist are not very common (other than the specific conditions covered in later modules — FPL tenosynovitis, De Quervain's, trigger finger)."
+        },
+        {
+          "type": "heading",
+          "text": "Bursitis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bursitis affecting the wrist is not very common."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Wrist Sprains",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wrist sprains are the most clinically relevant general injury in this category."
+        },
+        {
+          "type": "heading",
+          "text": "Key Points"
+        },
+        {
+          "type": "list",
+          "items": [
+            "FOOSH injuries are very common and frequently lead to a palmar ligament sprain (either extrinsic or intrinsic) with or without fracture",
+            "FOOSH injuries commonly cause fractures and/or dislocations — these should always be ruled out",
+            "Overpressure in the direction that stresses the suspected ligament (flexion, extension, ulnar deviation, radial deviation) is the best way to assess for a sprain",
+            "Treat as for general sprain"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "Always rule out fractures and dislocations following a FOOSH injury before treating as a sprain."
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Assessment Principles",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Sprain Assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overpressure in the direction that stresses the suspected ligament is the best assessment method:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Flexion — tests dorsal ligaments",
+            "Extension — tests palmar ligaments",
+            "Ulnar deviation — tests radial-sided ligaments",
+            "Radial deviation — tests ulnar-sided ligaments"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "General Sprain Grading"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grade 1 (Mild): Pain without laxity",
+            "Grade 2 (Moderate): Laxity with a firm end feel",
+            "Grade 3 (Severe): Laxity with a soft end feel (possible rupture)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Treat as for general sprain management, following established rehabilitation principles."
+        },
+        {
+          "type": "heading",
+          "text": "General Sprain Treatment Goals"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Promote a functional scar and reduce adhesions at site of injury",
+            "Restore neuromuscular control and resting muscle tone",
+            "Restore normal range of motion",
+            "Treat compensatory structures to restore overall function"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Massage treatment for wrist sprains follows general sprain rehabilitation principles. The specific approach depends on severity, stage of healing, and individual assessment findings."
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Your goals will always be based on your assessment findings pertinent to the individual you are treating. Severity and stage of healing will determine which techniques are appropriate."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Recovery timelines depend on the grade of sprain and adherence to protection/modification. Mild sprains typically recover faster than moderate or severe sprains."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "A clinical impression for a sprain should include: affected ligament, severity, and stage of healing."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the most common mechanism of injury for wrist sprains?",
+      "options": ["Repetitive ulnar deviation", "FOOSH (Fall On Outstretched Hand)", "Twisting injury", "Direct impact to the wrist"],
+      "correctIndex": 1,
+      "explanation": "FOOSH injuries are very common and frequently lead to palmar ligament sprains, with or without fracture."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What should always be ruled out following a FOOSH injury before treating as a sprain?",
+      "options": ["Tendinopathy", "Bursitis", "Fractures and dislocations", "Carpal tunnel syndrome"],
+      "correctIndex": 2,
+      "explanation": "FOOSH injuries commonly cause fractures and/or dislocations, so these should always be ruled out."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "In sprain grading, laxity with a firm end feel indicates what severity?",
+      "options": ["Mild (Grade 1)", "Moderate (Grade 2)", "Severe (Grade 3)", "Normal finding"],
+      "correctIndex": 1,
+      "explanation": "Grade 2 (Moderate): Laxity with a firm end feel. Grade 1 is pain without laxity, and Grade 3 is laxity with a soft end feel."
+    }
+  ]
+}

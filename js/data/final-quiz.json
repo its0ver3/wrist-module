@@ -1,0 +1,145 @@
+{
+  "title": "Final Comprehensive Assessment",
+  "description": "This quiz covers all conditions from all modules. You need to complete all sub-module quizzes before attempting this assessment.",
+  "passingScore": 67,
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the most common cause of ulnar sided thumb pain?",
+      "options": ["TFCC injury", "UCL of MCP 1 dysfunction", "De Quervain's tenosynovitis", "Wrist sprain"],
+      "correctIndex": 1,
+      "explanation": "UCL dysfunction is the most common cause of ulnar sided thumb pain.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which special test is positive in De Quervain's tenosynovitis?",
+      "options": ["Phalen's test", "Tinel's sign", "Finkelstein test", "Ulnocarpal stress test"],
+      "correctIndex": 2,
+      "explanation": "The Finkelstein test is positive in De Quervain's tenosynovitis.",
+      "module": 2
+    },
+    {
+      "type": "multiple_choice",
+      "question": "A Colle's fracture results from a FOOSH on which wrist position?",
+      "options": ["Flexed wrist", "Extended wrist", "Neutral wrist", "Ulnar deviated wrist"],
+      "correctIndex": 1,
+      "explanation": "Colle's fracture occurs from a FOOSH on an extended wrist, causing dorsal displacement (\"dinner fork\" appearance).",
+      "module": 4
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Why should extrinsic hand muscle strengthening be avoided in RA patients?",
+      "options": [
+        "It causes excessive pain",
+        "It increases ulnar drift due to ulnar-sided forces",
+        "It worsens synovial inflammation",
+        "Extrinsic muscles are not affected in RA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Activation of extrinsic hand muscles increases ulnar drift due to the ulnar-sided forces of the extrinsic hand muscles. Only intrinsic hand muscle strengthening should be given.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "In FPL tenosynovitis, AROM is more provocative than RROM because:",
+      "options": [
+        "Active movement requires more muscle force",
+        "The tendon moves through the irritated sheath during active movement",
+        "Passive structures are more stressed during AROM",
+        "RROM tests different muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "With tenosynovitis, irritation is between the tendon and the sheath. AROM causes the tendon to be pulled through the sheath, creating friction.",
+      "module": 2
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Dupuytren contracture primarily affects which tissue?",
+      "options": ["Tendon sheaths", "Joint capsules", "Palmar fascia", "Flexor tendons"],
+      "correctIndex": 2,
+      "explanation": "Dupuytren contracture is an overproduction of fibrous tissue within the palmar fascia. It does not involve muscle, tendons, or neuromuscular dysfunction.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which two special tests are positive in TFCC injury?",
+      "options": [
+        "Finkelstein and Phalen's",
+        "UCL stress test and grind test",
+        "Ulnocarpal stress test and ulnar impaction test",
+        "Tinel's sign and compression test"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ulnocarpal stress test and ulnar impaction test are positive in TFCC injury.",
+      "module": 4
+    },
+    {
+      "type": "true_false",
+      "question": "Morning stiffness lasting over 2 hours is more characteristic of osteoarthritis than rheumatoid arthritis.",
+      "correctAnswer": false,
+      "explanation": "RA usually has morning stiffness over 2 hours. OA usually has morning stiffness under 1 hour.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "If thumb pain is recreated during radial deviation of the wrist, which condition is most likely?",
+      "options": ["TFCC injury", "De Quervain's tenosynovitis", "CMC 1 Osteoarthritis", "UCL of MCP 1 sprain"],
+      "correctIndex": 2,
+      "explanation": "CMC 1 OA is the most likely condition if thumb pain is recreated during radial deviation, because radial deviation is a compressive force on the CMC 1.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What structure does trigger finger surgery address?",
+      "options": ["The FDS tendon", "The inflammatory nodule", "The A1 pulley", "The MCP joint capsule"],
+      "correctIndex": 2,
+      "explanation": "Surgery addresses the A1 pulley (not the tendon or nodule).",
+      "module": 2
+    },
+    {
+      "type": "true_false",
+      "question": "Significant edema is a common finding in isolated TFCC injuries.",
+      "correctAnswer": false,
+      "explanation": "Edema following TFCC injury is rare and normally only occurs with combined injuries such as fracture.",
+      "module": 4
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which nodes are found at the PIP joints in osteoarthritis?",
+      "options": ["Heberden's nodes", "Bouchard's nodes", "Rheumatoid nodules", "Ganglion cysts"],
+      "correctIndex": 1,
+      "explanation": "Bouchard's nodes are found at the PIPs. Heberden's nodes are found at the DIPs.",
+      "module": 3
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What should always be ruled out following a FOOSH injury before treating as a wrist sprain?",
+      "options": ["Tendinopathy", "Carpal tunnel syndrome", "Fractures and dislocations", "Bursitis"],
+      "correctIndex": 2,
+      "explanation": "FOOSH injuries commonly cause fractures and/or dislocations, so these should always be ruled out.",
+      "module": 1
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Why is the scaphoid fracture of particular clinical concern?",
+      "options": [
+        "It always requires surgery",
+        "It is susceptible to avascular necrosis",
+        "It causes immediate carpal tunnel syndrome",
+        "It is the most painful fracture type"
+      ],
+      "correctIndex": 1,
+      "explanation": "The scaphoid is susceptible to avascular necrosis following fracture, which can lead to SLAC wrist arthritis.",
+      "module": 4
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which muscle provides the most helpful muscular support for a healing UCL of MCP 1?",
+      "options": ["Opponens pollicis", "Flexor pollicis longus", "First dorsal interosseous", "Adductor pollicis"],
+      "correctIndex": 2,
+      "explanation": "The 1st dorsal interossei manus muscle is the most helpful muscular support for the healing UCL ligament.",
+      "module": 3
+    }
+  ]
+}

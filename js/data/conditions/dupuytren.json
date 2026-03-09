@@ -1,0 +1,234 @@
+{
+  "id": "dupuytren",
+  "title": "Dupuytren Contracture",
+  "subtitle": "Palmar Fascia Fibromatosis",
+  "moduleId": 3,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dupuytren contracture is a benign, insidious overproduction of fibrous tissue within the palmar fascia. Tissue knots form under the skin and eventually create a thick cord that can bend the finger(s) into a flexed position."
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Despite the name 'contracture,' this condition does NOT involve muscle, tendons, or neuromuscular dysfunction. The affected tissue is the palmar fascia only — it is not an inflammatory condition and is not a painful condition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Primarily affects older people of European descent, with people assigned male at birth more commonly affected. Occurs more commonly in people with diabetes mellitus or long-term alcohol consumption."
+        },
+        {
+          "type": "heading",
+          "text": "Common Impairments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Difficulty extending the finger(s)",
+            "Difficulty using a keyboard",
+            "Inability to flatten the palm (e.g. push-ups or donning gloves)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It is a slowly progressive condition. Usually starts unilateral but can become bilateral. The 5-year recurrence rate is nearly 50% even after successful treatment."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Onset is gradual and progressive (generally slow)",
+            "Pain is NOT expected",
+            "Most commonly affects the fascia in line with digits 3-5"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is the rate of progression?",
+            "Have you had a bad reaction to massage for this area?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM shows decreased MCP extension, most commonly digits 3 and 4. If severe, PIP extension is also decreased",
+            "PROM is the same as AROM, though slightly more motion is expected",
+            "RROM is likely to show weakness in finger movements, especially extension, due to disuse"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Intrinsic hand muscles and finger extensors are expected to be weak and/or show poor neuromuscular control due to disuse"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Differentiating from Trigger Finger"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dupuytren's: normally painless, consistent stiffness, dimpling of the palm",
+            "Trigger finger: normally painful with a clear clicking, clunking, or locking motion during extension"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "The Bunnel-Littler test can help: if MCP extension increases with DIP and PIP flexion, the long finger flexors are limiting ROM and Dupuytren contracture is confirmed. If no change, an MCP capsular restriction is present."
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dupuytren contracture is a long-term, progressive condition that is highly resistant to treatment or change. Even after successful treatment (e.g. surgery), there is a 50% 5-year recurrence rate."
+        },
+        {
+          "type": "heading",
+          "text": "Conservative"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Low-load, long-duration stretches",
+            "Static progressive orthosis (though patient adherence tends to be limited)",
+            "Even if improvement in MCP extension occurs, the patient will need to continue orthosis use long-term"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Surgery"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fasciectomy, fasciotomy, or injection therapies",
+            "50% 5-year recurrence rate even after successful surgery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Promote joint nutrition",
+            "Improve joint function (normal joint play)",
+            "Improve muscle function and prevent contractures",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Promote joint nutrition with mid-range pain-free PROM of the hand and wrist",
+            "Restore normal joint play with joint mobilisations to wrist and metacarpals",
+            "Improve extensibility of palmar fascia with heat and MFR",
+            "Restore normal muscle balance with NMT & MFR to forearm",
+            "Reduce soreness with hand massage",
+            "Decrease trigger point activity in muscles around hand and forearm"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Do not force the joints beyond their range in extension. Long, gentle stretching is more effective than deep stretching or aggressive tissue mobilisation."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dupuytren's is resistant to change. Short-term improvements (minutes to hours) in mobility may be experienced, but resolution of the complaint will not occur."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is a progressive, long-term condition. Frequent treatments to help promote and preserve available function are recommended."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "true_false",
+      "question": "Dupuytren contracture involves muscle tissue and neuromuscular dysfunction.",
+      "correctAnswer": false,
+      "explanation": "Dupuytren contracture affects the palmar fascia ONLY — it does not involve muscle, tendons, or neuromuscular dysfunction."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is the 5-year recurrence rate of Dupuytren contracture after successful surgery?",
+      "options": ["10%", "25%", "50%", "75%"],
+      "correctIndex": 2,
+      "explanation": "Even after successful treatment (e.g. surgery), there is a 50% 5-year recurrence rate."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which digits does Dupuytren contracture most commonly affect?",
+      "options": ["Digits 1-2 (thumb and index)", "Digits 2-3 (index and middle)", "Digits 3-5 (middle, ring, little)", "All digits equally"],
+      "correctIndex": 2,
+      "explanation": "Dupuytren most commonly affects the fascia in line with digits 3-5."
+    }
+  ]
+}

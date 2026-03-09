@@ -1,0 +1,968 @@
+<!-- Landing Page - Module Overview -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EduLearn - Student Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1281e2",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="relative flex flex-col w-full overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-6 md:px-10 py-3">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">school</span>
+<h2 class="text-xl font-bold tracking-tight">EduLearn</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Courses</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">My Progress</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Profile</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary w-64 transition-all" placeholder="Search courses..." type="text"/>
+</div>
+<button class="relative p-2 text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-white dark:border-background-dark"></span>
+</button>
+<div class="w-10 h-10 rounded-full bg-primary/10 border-2 border-primary overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Student profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiQMIORy2Z8q-XCkogR7Azfn9JT3y0hHimbQYKWCeY0FgQC1fJ5qyiMLZm0cVM7zJ3sOe9Vd98X6MmIFCWRa_dowcopCon58i8SUyOrLUkANnCX2ooxiNQ6INQvGxU9ihNXvmnYcaXoxsDJUtUn4vahJTy0-5w9EamZNdauJoWoraaE9tgMWu8NvRkaiXnJHbNzIpKtK8jXIJw7PIffoWTtJ1YlDl1woN0KXxjZ3txnHY8Zv3vg06PbLVEDk5dSRy9lFWhlY4BbyYZ"/>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto w-full px-6 md:px-10 py-8">
+<section class="mb-10">
+<div class="relative overflow-hidden rounded-xl bg-slate-900 text-white p-8 md:p-12">
+<div class="absolute inset-0 opacity-20 bg-gradient-to-br from-primary to-purple-600" data-alt="Abstract blue and purple gradient pattern"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="max-w-xl text-center md:text-left">
+<h1 class="text-3xl md:text-5xl font-black mb-4 leading-tight">Welcome back, Alex!</h1>
+<p class="text-slate-300 text-lg mb-6">You've completed 75% of your weekly goals. Finish 2 more modules to reach your streak!</p>
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg font-bold transition-all inline-flex items-center gap-2">
+<span class="material-symbols-outlined">rocket_launch</span>
+                                Continue Learning
+                            </button>
+</div>
+<div class="flex items-center gap-6 bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
+<div class="text-center">
+<p class="text-3xl font-bold">12</p>
+<p class="text-xs uppercase tracking-wider text-slate-300">Day Streak</p>
+</div>
+<div class="w-[1px] h-12 bg-white/20"></div>
+<div class="text-center">
+<p class="text-3xl font-bold">450</p>
+<p class="text-xs uppercase tracking-wider text-slate-300">XP Points</p>
+</div>
+<div class="w-[1px] h-12 bg-white/20"></div>
+<div class="text-center">
+<p class="text-3xl font-bold">84%</p>
+<p class="text-xs uppercase tracking-wider text-slate-300">Average Score</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<div class="lg:col-span-8">
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-2xl font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">grid_view</span>
+                            Learning Modules
+                        </h2>
+<a class="text-primary text-sm font-semibold hover:underline" href="#">View all</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden group hover:shadow-xl transition-all">
+<div class="h-40 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Algorithms code visualization on screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5lMggAKr4oLDX43kMSeN5StGcwt7XDMFk1UQhnFLVClc3WRgUhWPqMwNcv6IutjjHo0gA4-_Zs3G93h0Au6LElvgQrPXdbF8-E8dd-TQX-7XYiibSYZxD08oUtHBPWkXrw-lIidnGS3r_UBY2tiRFhksXAFKsUOA8LClw79VctuXXZccZeckZ0z9aP_bH-MKD7wcVNVPF8Io8eQ_t8kCgcf6D8Vwj8uthc91PI-4YoQrDlx-HADPhSjbpXsNN3dxXENLZqMDDHrBB"/>
+<div class="absolute top-3 right-3 bg-primary text-white text-[10px] font-bold px-2 py-1 rounded uppercase">Computer Science</div>
+</div>
+<div class="p-5">
+<h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">Introduction to Algorithms</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-4 line-clamp-2">Master the fundamentals of sorting, searching, and complex graph theory applications.</p>
+<div class="mb-4">
+<div class="flex justify-between text-xs font-semibold mb-1">
+<span>Progress</span>
+<span>65%</span>
+</div>
+<div class="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 65%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white rounded-lg text-sm font-bold transition-all">Continue Learning</button>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden group hover:shadow-xl transition-all">
+<div class="h-40 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Advanced mathematics formulas on chalkboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6u_q0zxCKtGnDkA1ZEdbVVyHikpK7WKuTCs9blz6vlF0jdS6PORd1KV_3P93xmPjsylR6zdpTLOB4nVDh37gcIUxVH5yFqapwU7gh2KBftAHLaiAJmNz00mzYSzVYxTyjRjI0mgD1-PSrh3a3ZgvED7ilZ3epwiGb5d6sLsNJRCW5eUXZ2Y_0mNXJAytHRrOJzxz0O7DZetaXskOaKN_suZZf8XvMmUS4kABuqVjJQkSCfMC1OvqU1M8VC5x-pyFKiaVqVdKxnk7d"/>
+<div class="absolute top-3 right-3 bg-amber-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase">Mathematics</div>
+</div>
+<div class="p-5">
+<h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">Advanced Calculus</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-4 line-clamp-2">Explore multivariable integration, vector analysis, and complex limit theorems.</p>
+<div class="mb-4">
+<div class="flex justify-between text-xs font-semibold mb-1">
+<span>Progress</span>
+<span>30%</span>
+</div>
+<div class="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 30%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white rounded-lg text-sm font-bold transition-all">Continue Learning</button>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden group hover:shadow-xl transition-all">
+<div class="h-40 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Digital security lock illustration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVC41cHVuikRby6o0ed0faAmrPwHVzpSgyyZrUq8jeo-oONXCrC8X_k_uMnKQKeUkjeng7fGQ1AKwVvK5Yp8mZmpXlHRlJgtsHmqaFfEf-UXcalrvxscdXhWpgIDMRmHnw_eAw7z35zI5ysYyGZB8DEZwDhZA7JX23Fnqy64K9b2jkpSbPHTsNZYl3t-jcew3dtkZ9g8dPzDuxJHpwNtfjtOsp4YqlxfT7DK72jCUFz2RS6Qq9OChUCINx20VC-5jDQJ8ZttUqLKJd"/>
+<div class="absolute top-3 right-3 bg-green-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase">Cybersecurity</div>
+</div>
+<div class="p-5">
+<h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">Network Security</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-4 line-clamp-2">Protecting infrastructure through ethical hacking and firewall optimization.</p>
+<div class="mb-4">
+<div class="flex justify-between text-xs font-semibold mb-1">
+<span>Progress</span>
+<span>12%</span>
+</div>
+<div class="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 12%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white rounded-lg text-sm font-bold transition-all">Continue Learning</button>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden group hover:shadow-xl transition-all">
+<div class="h-40 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Clean desk with coding laptop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5DGQsrR1oL2nYjT-zC-M7as-GbyFShG8e0yjHplHotrwPniwhpTLWxiT5u94EYnqmfOdgArYy3MHXKBz0PRTLGG0ZuStbcNQ6_GE6v9SfQFpfumI0a0_m01bz0eZaxMLtHSP3-idhRF7h2wFxqkCFwYw13ns_BxCZ4Ab_NuoSw5J6i1MFQSGGuZLKZm5t32utqtpc3iB2Ds20ZlgsY9j1oqGfVbPX4dPR8XtHvvuy5JX6FlV5FVpxDISKczoTDj8RKx0UAgC0epSg"/>
+<div class="absolute top-3 right-3 bg-purple-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase">Engineering</div>
+</div>
+<div class="p-5">
+<h3 class="text-lg font-bold mb-2 group-hover:text-primary transition-colors">UI Design Principles</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-4 line-clamp-2">Fundamentals of visual hierarchy, typography, and accessibility in modern UI.</p>
+<div class="mb-4">
+<div class="flex justify-between text-xs font-semibold mb-1">
+<span>Progress</span>
+<span>88%</span>
+</div>
+<div class="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 88%"></div>
+</div>
+</div>
+<button class="w-full py-2 bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white rounded-lg text-sm font-bold transition-all">Continue Learning</button>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 space-y-8">
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm">
+<h3 class="text-lg font-bold mb-5 flex items-center gap-2">
+<span class="material-symbols-outlined text-red-500">event_busy</span>
+                            Upcoming Deadlines
+                        </h3>
+<div class="space-y-4">
+<div class="flex items-start gap-3 p-3 bg-red-50 dark:bg-red-500/10 rounded-lg border-l-4 border-red-500">
+<div class="flex-1">
+<p class="text-sm font-bold">Algorithms Quiz #4</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Due in 4 hours</p>
+</div>
+<span class="material-symbols-outlined text-red-500 text-sm">priority_high</span>
+</div>
+<div class="flex items-start gap-3 p-3 bg-amber-50 dark:bg-amber-500/10 rounded-lg border-l-4 border-amber-500">
+<div class="flex-1">
+<p class="text-sm font-bold">Calculus Problem Set</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Due tomorrow, 11:59 PM</p>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-lg border-l-4 border-slate-400">
+<div class="flex-1">
+<p class="text-sm font-bold">Design Case Study</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Due Friday, Oct 25</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-6 py-2 border border-slate-200 dark:border-slate-700 rounded-lg text-sm font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">View Schedule</button>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-6 shadow-sm">
+<h3 class="text-lg font-bold mb-5 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">history</span>
+                            Recently Viewed
+                        </h3>
+<div class="space-y-5">
+<div class="flex gap-3 items-center group cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-slate-100 dark:bg-slate-800 overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Data structures diagram" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmz1pZ20f7JR4QIInPJ4qxM9JqoZ1XAU2g1Ao8js4BLOfNvMsa3YMgGIaaCWR6uCKsuLJiAweKPkhvWm_dXlDLfZCFlVPMs5u1YOfZhUP8SSIKyzYl3AkEevkB4btmURvJzjE18Ct1LN-0QWbFCyorZxK9khHBoxyn0aa_mziOz9pdxIZ6_YixSUHqSIBpS-NqOsdcNjvhxCwKehVjGRNouQfh1Jwh3ZxizUIgbC3CqJGQ2VxCSudUfce_qM4VBbpKjodQJgY0ebgR"/>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-sm font-bold truncate group-hover:text-primary transition-colors">Lesson 12: Binary Search Trees</p>
+<p class="text-xs text-slate-500">Visited 20 mins ago</p>
+</div>
+</div>
+<div class="flex gap-3 items-center group cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-slate-100 dark:bg-slate-800 overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Physics laboratory equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ54xlkNKcV1bcO-xYFrR6FOjQNgaaMdGXUvFy3s_EcZHKkIYYfBevvaa09imNyobXl47lHkXo-MbWsydvftF3OnKDADUeUZoTu7cVXw2Fw9sFqU83upTM-eghrR7ZOCmAllQKkW45oCP6Ok7W5RULLFNgexWVBW-wB-IKnG6vP_yXWR16AbgukkU2E9iRT9ujLgoAI681q6oWjGaRTwbAQntxxeaRGMHezb2kjymzuGbMt-8sDOsluZBh6-9R22Ndc_v56al2jqED"/>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-sm font-bold truncate group-hover:text-primary transition-colors">Quantum Mechanics Intro</p>
+<p class="text-xs text-slate-500">Visited 2 hours ago</p>
+</div>
+</div>
+<div class="flex gap-3 items-center group cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-slate-100 dark:bg-slate-800 overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Macro photography of pencil tips" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrUJxR0nBflK5M-eRu3zFYc41Xe9JM5N4DyaAWvrxS_Xkz1gZJzwshHMa67VgzcPjYd4bm-cbA2t-8KbKMo8vao5CcFNeEKbXSbtP0CAtpriG6Q7qSqIauakDQWQEU7AANHWAD98fLvDZig32dkpp_8BrK8K0M-zgUwnWCxoDicypbBBJalnqy3b5owO-KPzSLFrBx_ONbsrfgxPrlolBvOnP1YmUsp2e_Zj-g5FgrtHfKYCL0RVyjS3vnE3isyNs8g2gvRdsF4SNA"/>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-sm font-bold truncate group-hover:text-primary transition-colors">Effective Note Taking</p>
+<p class="text-xs text-slate-500">Visited Yesterday</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary/10 dark:bg-primary/5 rounded-xl p-6 border border-primary/20 relative overflow-hidden">
+<span class="material-symbols-outlined absolute -right-4 -bottom-4 text-primary/10 text-9xl">emoji_events</span>
+<h4 class="font-bold text-primary mb-2">Pro Member Benefits</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Unlock 24/7 tutor support and offline module access.</p>
+<button class="bg-primary text-white text-xs font-bold px-4 py-2 rounded-lg">Upgrade Now</button>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-10 px-6 md:px-10">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-2xl font-bold">school</span>
+<h2 class="text-lg font-bold tracking-tight">EduLearn</h2>
+</div>
+<div class="flex gap-8">
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-xs text-slate-500 hover:text-primary transition-colors" href="#">Help Center</a>
+</div>
+<p class="text-xs text-slate-400">© 2024 EduLearn Inc. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Learning Module - Video Lesson -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Module 3: Algorithms &amp; Data Structures - EduPlatform</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1281e2",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col">
+<!-- Header -->
+<header class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-6 py-3 lg:px-10">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="size-8 bg-primary text-white rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold tracking-tight">EduPlatform</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Courses</a>
+<a class="text-primary text-sm font-semibold border-b-2 border-primary pb-1" href="#">My Learning</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Resources</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<div class="relative hidden sm:block w-full max-w-xs">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl">search</span>
+<input class="w-full bg-slate-100 dark:bg-slate-800 border-none rounded-lg py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/50" placeholder="Search lessons..." type="text"/>
+</div>
+<div class="size-10 rounded-full border-2 border-primary/20 bg-primary/10 flex items-center justify-center overflow-hidden">
+<img alt="User profile" data-alt="Student profile avatar portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ52gWnKYeoHqdEZEklnMLOv9kSgVBCx_0Jsu-GV9XuuJ-B2N-vNLmKEHvV0W_kIvFC7E-oBF5Aq1Tu-q_MQYZ_kgIUciNehN4kTqmveyRyPfw6Huo3Qn2c4WVXTY3K2zCkogobJ5H2qKtGe4cn5q1chKm2i0VP069fV0_OQEqva4OtsmCGR7sanCGtgcBxty-bzHcFry0Nb-ffOQGOPmBd4KC0PHPn-AwmzPMBbp1x3xUyAJHuEKDX436zDgG_BIXP07A2fcIpHZi"/>
+</div>
+</div>
+</header>
+<div class="flex flex-1 overflow-hidden">
+<!-- Sidebar Navigation -->
+<aside class="w-64 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex-col hidden lg:flex">
+<div class="p-6">
+<div class="mb-6">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Current Module</span>
+<h3 class="text-slate-900 dark:text-white font-bold text-lg leading-tight mt-1">Algorithms &amp; Data Structures</h3>
+<div class="mt-3 w-full bg-slate-200 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-1/3"></div>
+</div>
+<p class="text-[11px] mt-2 text-slate-500">35% Completed</p>
+</div>
+<nav class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined text-xl">info</span>
+<span class="text-sm font-medium">Introduction</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 bg-primary/10 text-primary rounded-lg" href="#">
+<span class="material-symbols-outlined material-symbols-filled text-xl">play_circle</span>
+<span class="text-sm font-semibold">Video Lesson</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined text-xl">description</span>
+<span class="text-sm font-medium">Reading Notes</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-slate-400 dark:text-slate-600 cursor-not-allowed" href="#">
+<span class="material-symbols-outlined text-xl">quiz</span>
+<span class="text-sm font-medium">Module Quiz</span>
+<span class="material-symbols-outlined text-sm ml-auto">lock</span>
+</a>
+</nav>
+<div class="mt-10 pt-6 border-t border-slate-100 dark:border-slate-800">
+<button class="w-full flex items-center justify-center gap-2 py-2 px-4 border border-slate-200 dark:border-slate-700 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-lg">download</span>
+                            Download Assets
+                        </button>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 overflow-y-auto bg-slate-50 dark:bg-background-dark p-6 lg:p-10">
+<div class="max-w-5xl mx-auto">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-2 text-sm mb-6 text-slate-500 dark:text-slate-400">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Algorithms</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-slate-900 dark:text-white font-medium">Lesson 1: Time Complexity</span>
+</nav>
+<!-- Video Player -->
+<div class="relative bg-black rounded-xl overflow-hidden shadow-2xl aspect-video group">
+<div class="absolute inset-0 flex items-center justify-center bg-cover bg-center opacity-80" data-alt="Technical background showing source code and abstract tech patterns" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0zsgdnp5rfXiC55Bj1R--Y2ZithjCB3IezrX5WkfU_dg5ol2o25EmNWSU-KF04hyZjfQx96x_zC4sNjROtiC0sVXfuBgJihY2nZUohQa3gEOvnZL92LwxNvJhr0n7HxYQSS5VfQ94Qwp2atACU-llW90VuxJCK6E1kLVAzt86aHbu4EQOrS5ctIxXPVt_wbfeVIaiunbxtV0NJo3Xl9GrTyS2TmUwejqkn1EKHW8WayXbSV_6we5nfiqF3YRmmm2xv3N-hQv1ufd8')">
+</div>
+<!-- Overlay & Controls UI (Simulated) -->
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 flex flex-col justify-end p-6">
+<button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-primary text-white flex items-center justify-center shadow-lg hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-4xl material-symbols-filled">play_arrow</span>
+</button>
+<div class="w-full space-y-4">
+<div class="relative h-1.5 w-full bg-white/20 rounded-full cursor-pointer">
+<div class="absolute top-0 left-0 h-full w-1/3 bg-primary rounded-full"></div>
+<div class="absolute top-1/2 left-1/3 -translate-y-1/2 size-4 bg-primary rounded-full border-2 border-white shadow-md"></div>
+</div>
+<div class="flex items-center justify-between text-white text-xs font-medium">
+<div class="flex items-center gap-4">
+<span>08:14 / 24:30</span>
+<span class="material-symbols-outlined text-lg cursor-pointer">volume_up</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-lg cursor-pointer">settings</span>
+<span class="material-symbols-outlined text-lg cursor-pointer">fullscreen</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Lesson Information -->
+<div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="lg:col-span-2 space-y-8">
+<section>
+<h1 class="text-2xl font-bold text-slate-900 dark:text-white">Lesson Overview</h1>
+<p class="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
+                                    In this lesson, we delve into the fundamental concepts of Big O notation and how it relates to algorithm efficiency. Understanding time complexity is crucial for building scalable applications and passing technical interviews. We'll start with constant time O(1) and work our way up to exponential complexities.
+                                </p>
+</section>
+<section class="bg-white dark:bg-slate-900 rounded-xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+<h2 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">target</span>
+                                    Key Learning Objectives
+                                </h2>
+<ul class="mt-4 space-y-3">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 mt-0.5">check_circle</span>
+<span class="text-slate-600 dark:text-slate-400">Identify the difference between constant, linear, and quadratic time complexities.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 mt-0.5">check_circle</span>
+<span class="text-slate-600 dark:text-slate-400">Analyze basic loops and determine their Big O notation.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 mt-0.5">check_circle</span>
+<span class="text-slate-600 dark:text-slate-400">Understand how space complexity differs from time complexity.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 mt-0.5">check_circle</span>
+<span class="text-slate-600 dark:text-slate-400">Evaluate best-case, average-case, and worst-case scenarios for common sorting algorithms.</span>
+</li>
+</ul>
+</section>
+</div>
+<!-- Secondary Sidebar / Resources -->
+<div class="space-y-6">
+<div class="bg-primary/5 dark:bg-primary/10 rounded-xl p-6 border border-primary/20">
+<h3 class="font-bold text-slate-900 dark:text-white mb-4">Lesson Materials</h3>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800 rounded-lg shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">picture_as_pdf</span>
+<span class="text-xs font-medium">Lecture Slides.pdf</span>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-sm cursor-pointer hover:text-primary">download</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-white dark:bg-slate-800 rounded-lg shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">code</span>
+<span class="text-xs font-medium">Complexity Exercises.zip</span>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-sm cursor-pointer hover:text-primary">download</span>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 rounded-xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
+<h3 class="font-bold text-slate-900 dark:text-white mb-4">Instructor Tips</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                                    "Don't worry about memorizing every complexity chart. Focus on the intuition of how input size impacts processing speed."
+                                </p>
+<div class="flex items-center gap-3 mt-4">
+<div class="size-8 rounded-full bg-slate-200 overflow-hidden">
+<img alt="Instructor" data-alt="Instructor profile picture headshot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlx9cha_T7KSWHLE8CV6TCvicin29OHcNK3y6cO9seI7-mIDR0fy8tacOpfZfIWl9oF25TM1YVbZHeoyz02FOwL64RZDzUMyGpzPY-EdiEHBIiWE8qPwNHCqN-pmbw95IUdI9dytufQ_mj-A2LSTjcBT33aiN3QP9CcMsZaCc3KzLnQnEuvW9BAvniyXy0T9zMhaXvP4Sm6bhZUQokcwJ1y3Fjau26OxPqjA2IfI68HrS3opH2Ziu_MgnMCDMm0qWAbxBfxp3AxWhR"/>
+</div>
+<div class="text-[11px]">
+<p class="font-bold text-slate-900 dark:text-white">Prof. Sarah Jenkins</p>
+<p class="text-slate-500">Lead Curriculum Developer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Actions -->
+<div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between">
+<button class="flex items-center gap-2 px-6 py-2.5 rounded-lg border border-slate-200 dark:border-slate-700 font-medium text-slate-600 dark:text-slate-400 hover:bg-white dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+                            Previous Lesson
+                        </button>
+<button class="flex items-center gap-2 px-8 py-2.5 rounded-lg bg-primary text-white font-bold shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all">
+                            Complete &amp; Continue
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
+
+<!-- Lecture Notes View -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1281e2",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Lecture Notes - CS101</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="flex h-screen overflow-hidden">
+<!-- Sidebar -->
+<aside class="w-64 border-r border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 flex flex-col">
+<div class="p-6 flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-lg bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<div class="flex flex-col">
+<h1 class="text-slate-900 dark:text-slate-100 text-base font-bold leading-tight">CS101</h1>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-normal">Computer Science</p>
+</div>
+</div>
+<nav class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="text-sm font-medium">Modules</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">assignment</span>
+<span class="text-sm font-medium">Assignments</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="text-sm font-medium">Lecture Notes</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" href="#">
+<span class="material-symbols-outlined">school</span>
+<span class="text-sm font-medium">Grades</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-4 border-t border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-3 px-2">
+<div class="size-8 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden">
+<img alt="Student avatar" data-alt="Student profile picture placeholder" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuiZ39Hx8oAZZpX-0FTwmyoQmH0IVe7hrFQFVJX_kvTXmxXkEgdqeyx2We03r1NEhMGWqva8jBAbBmoRLcrAXt4SfAeCOHl0BTNsW7ZtD2vKTzAwwb69Ohi9J-Oi5BCMNwjL8VG7qcpyDHwVvE1B252k5exG884-_XDMY9qPb3H0wG5DVyLu0qoiLLqwI3ON0sEihu1F6Pu3YnocCri_7EY-BGAGqeP9t_nVIfYvr-DA23c9tpnaV6Qdg8dPYgd3QuQRzCGIGVsUO-"/>
+</div>
+<div class="flex flex-col overflow-hidden">
+<p class="text-sm font-medium truncate">Alex Johnson</p>
+<p class="text-xs text-slate-500 truncate">S-192834</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 flex flex-col overflow-hidden">
+<!-- Header -->
+<header class="h-16 border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md px-8 flex items-center justify-between z-10">
+<div class="flex items-center gap-4 text-slate-500 text-sm">
+<span>Modules</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span>Data Structures</span>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-slate-900 dark:text-slate-100 font-medium">Week 4: Linked Lists</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-lg text-sm w-64 focus:ring-2 focus:ring-primary/50 transition-all" placeholder="Search notes..." type="text"/>
+</div>
+<button class="p-2 text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</header>
+<!-- Scrollable Content -->
+<div class="flex-1 overflow-y-auto bg-background-light dark:bg-background-dark p-8">
+<div class="max-w-4xl mx-auto space-y-8">
+<!-- Hero Title Section -->
+<div class="space-y-2">
+<h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight">Introduction to Linked Lists</h1>
+<div class="flex items-center gap-4 text-slate-500 text-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+                            Oct 24, 2023
+                        </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">timer</span>
+                            15 min read
+                        </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">person</span>
+                            Dr. Sarah Smith
+                        </span>
+</div>
+</div>
+<!-- Rich Text Content Area -->
+<div class="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-10 shadow-sm leading-relaxed">
+<div class="prose prose-slate dark:prose-invert max-w-none">
+<h2 class="text-2xl font-bold mb-4 text-slate-900 dark:text-slate-100">1. Overview</h2>
+<p class="mb-6 text-slate-600 dark:text-slate-400">
+                            A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
+                        </p>
+<div class="bg-slate-50 dark:bg-slate-800 rounded-lg p-6 mb-8 border border-slate-200 dark:border-slate-700 flex flex-col items-center">
+<div class="flex items-center gap-4">
+<div class="w-24 h-12 bg-primary/20 border-2 border-primary rounded flex items-center justify-center font-bold text-primary">Node 1</div>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+<div class="w-24 h-12 bg-primary/20 border-2 border-primary rounded flex items-center justify-center font-bold text-primary">Node 2</div>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+<div class="w-24 h-12 bg-primary/20 border-2 border-primary rounded flex items-center justify-center font-bold text-primary">Node 3</div>
+<span class="material-symbols-outlined text-primary">arrow_forward</span>
+<div class="w-12 h-12 bg-slate-300 dark:bg-slate-600 rounded flex items-center justify-center font-bold">NULL</div>
+</div>
+<p class="text-xs mt-4 text-slate-500">Figure 1.1: Basic Singly Linked List Structure</p>
+</div>
+<h2 class="text-2xl font-bold mb-4 mt-8 text-slate-900 dark:text-slate-100">2. Key Concepts</h2>
+<ul class="list-disc pl-6 mb-6 space-y-2 text-slate-600 dark:text-slate-400">
+<li><strong>Node:</strong> Each element of a linked list is called a node.</li>
+<li><strong>Head:</strong> The first node in a linked list.</li>
+<li><strong>Tail:</strong> The last node in a linked list, which points to NULL.</li>
+<li><strong>Next:</strong> A pointer/reference to the next node in the sequence.</li>
+</ul>
+<!-- Important Callout Box -->
+<div class="my-8 bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 p-6 rounded-r-lg">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-amber-600 dark:text-amber-400">warning</span>
+<h4 class="font-bold text-amber-900 dark:text-amber-100">Important Note</h4>
+</div>
+<p class="text-amber-800 dark:text-amber-200 text-sm">
+                                Unlike arrays, linked list elements are NOT stored in contiguous locations; the elements are linked using pointers. This means searching for an element in a linked list takes O(n) time, whereas arrays allow O(1) access.
+                            </p>
+</div>
+<h2 class="text-2xl font-bold mb-4 text-slate-900 dark:text-slate-100">3. Advantages and Disadvantages</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 text-slate-600 dark:text-slate-400">
+<div class="bg-emerald-50 dark:bg-emerald-900/10 p-4 rounded-lg">
+<h5 class="font-bold text-emerald-700 dark:text-emerald-400 mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">add_circle</span>
+                                    Advantages
+                                </h5>
+<ul class="text-sm space-y-1">
+<li>Dynamic Size</li>
+<li>Ease of Insertion/Deletion</li>
+<li>Memory efficiency (no pre-allocation)</li>
+</ul>
+</div>
+<div class="bg-rose-50 dark:bg-rose-900/10 p-4 rounded-lg">
+<h5 class="font-bold text-rose-700 dark:text-rose-400 mb-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">remove_circle</span>
+                                    Disadvantages
+                                </h5>
+<ul class="text-sm space-y-1">
+<li>Random access is not allowed</li>
+<li>Extra memory for pointers</li>
+<li>Not cache friendly</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Downloadable Resources Section -->
+<div class="space-y-4">
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">download_for_offline</span>
+                        Downloadable Resources
+                    </h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex items-center justify-between p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-primary transition-all cursor-pointer group shadow-sm">
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-lg bg-rose-100 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400 flex items-center justify-center">
+<span class="material-symbols-outlined">picture_as_pdf</span>
+</div>
+<div class="flex flex-col">
+<p class="text-sm font-semibold group-hover:text-primary transition-colors">Lecture_Notes_Week4.pdf</p>
+<p class="text-xs text-slate-500">2.4 MB • PDF Document</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">download</span>
+</div>
+<div class="flex items-center justify-between p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-primary transition-all cursor-pointer group shadow-sm">
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-lg bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 flex items-center justify-center">
+<span class="material-symbols-outlined">slideshow</span>
+</div>
+<div class="flex flex-col">
+<p class="text-sm font-semibold group-hover:text-primary transition-colors">Week4_Slides_Final.pptx</p>
+<p class="text-xs text-slate-500">12.8 MB • PowerPoint</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">download</span>
+</div>
+<div class="flex items-center justify-between p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl hover:border-primary transition-all cursor-pointer group shadow-sm">
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center">
+<span class="material-symbols-outlined">code</span>
+</div>
+<div class="flex flex-col">
+<p class="text-sm font-semibold group-hover:text-primary transition-colors">Linked_List_Implementation.zip</p>
+<p class="text-xs text-slate-500">45 KB • Source Code</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">download</span>
+</div>
+</div>
+</div>
+<!-- Footer Navigation -->
+<div class="flex items-center justify-between pt-8 pb-12 border-t border-slate-200 dark:border-slate-800">
+<button class="flex items-center gap-2 text-slate-500 hover:text-primary font-medium transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+                        Previous: Introduction to Arrays
+                    </button>
+<button class="flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+                        Next: Doubly Linked Lists
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>
+
+<!-- Quiz-Taking Section -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quiz Platform - Modern Assessment</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1281e2",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Lexend', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="layout-container flex flex-col min-h-screen">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-6 py-4">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-primary/10 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined">quiz</span>
+</div>
+<div>
+<h1 class="text-lg font-bold leading-tight tracking-tight">Introduction to UI Design Principles</h1>
+<p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Certification Course - Module 4</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden md:flex flex-col items-end">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Remaining Time</span>
+<div class="flex items-center gap-2 text-primary font-bold text-xl">
+<span class="material-symbols-outlined text-base">timer</span>
+<span>14:32</span>
+</div>
+</div>
+<button class="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 p-2 rounded-lg transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1 flex flex-col lg:flex-row max-w-7xl mx-auto w-full gap-6 p-6">
+<!-- Left: Sidebar Progress (Desktop) -->
+<aside class="hidden lg:flex flex-col w-80 shrink-0 gap-6">
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<h3 class="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase mb-4 tracking-widest">Questions Grid</h3>
+<div class="grid grid-cols-5 gap-3">
+<!-- Answered -->
+<div class="aspect-square flex items-center justify-center rounded-lg bg-primary text-white font-bold cursor-pointer">1</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-primary text-white font-bold cursor-pointer">2</div>
+<!-- Current -->
+<div class="aspect-square flex items-center justify-center rounded-lg border-2 border-primary text-primary font-bold cursor-pointer bg-primary/5">3</div>
+<!-- Unanswered -->
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">4</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">5</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">6</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">7</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">8</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">9</div>
+<div class="aspect-square flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-500 font-medium hover:bg-slate-200 dark:hover:bg-slate-700 cursor-pointer">10</div>
+</div>
+<div class="mt-8 space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+<span class="text-sm text-slate-600 dark:text-slate-400">Answered (2)</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full border-2 border-primary"></div>
+<span class="text-sm text-slate-600 dark:text-slate-400">Current</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+<span class="text-sm text-slate-600 dark:text-slate-400">Not Visited (7)</span>
+</div>
+</div>
+</div>
+<div class="bg-primary/10 border border-primary/20 p-5 rounded-xl">
+<h4 class="text-primary font-bold text-sm mb-2">Need help?</h4>
+<p class="text-primary/80 text-xs leading-relaxed">If you're stuck, you can flag the question to return to it later. Skipped questions will be highlighted in yellow.</p>
+</div>
+</aside>
+<!-- Main Quiz Area -->
+<section class="flex-1 flex flex-col gap-6">
+<!-- Progress Header -->
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex justify-between items-center mb-4">
+<h2 class="text-slate-900 dark:text-slate-100 font-bold text-lg">Question 3 <span class="text-slate-400 font-normal">of 10</span></h2>
+<span class="bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full">30% Complete</span>
+</div>
+<div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full transition-all duration-500" style="width: 30%"></div>
+</div>
+</div>
+<!-- Question Card -->
+<div class="bg-white dark:bg-slate-900 p-8 md:p-12 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex-1">
+<div class="mb-10">
+<span class="inline-block px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 text-xs font-bold rounded mb-4 tracking-widest uppercase">Multiple Choice</span>
+<h3 class="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-100 leading-tight">
+                            Which of the following describes the principle of "Visual Hierarchy" in UI design?
+                        </h3>
+</div>
+<div class="grid gap-4">
+<!-- Option 1 -->
+<label class="group relative flex items-center p-5 rounded-xl border-2 border-slate-100 dark:border-slate-800 cursor-pointer hover:border-primary/50 transition-all bg-slate-50/30 dark:bg-slate-800/20">
+<input class="hidden peer" name="quiz-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-colors">
+<div class="w-2 h-2 rounded-full bg-white opacity-0 peer-checked:opacity-100"></div>
+</div>
+<span class="ml-4 text-slate-700 dark:text-slate-300 font-medium peer-checked:text-primary transition-colors">
+                                Making all elements on the screen the same size to ensure balance.
+                            </span>
+</label>
+<!-- Option 2 (Selected State Mockup) -->
+<label class="group relative flex items-center p-5 rounded-xl border-2 border-primary cursor-pointer transition-all bg-primary/5">
+<input checked="" class="hidden peer" name="quiz-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-primary bg-primary flex items-center justify-center transition-colors">
+<div class="w-2 h-2 rounded-full bg-white"></div>
+</div>
+<span class="ml-4 text-primary font-bold transition-colors">
+                                Organizing elements to guide the viewer's eye to information in order of importance.
+                            </span>
+</label>
+<!-- Option 3 -->
+<label class="group relative flex items-center p-5 rounded-xl border-2 border-slate-100 dark:border-slate-800 cursor-pointer hover:border-primary/50 transition-all bg-slate-50/30 dark:bg-slate-800/20">
+<input class="hidden peer" name="quiz-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-colors">
+<div class="w-2 h-2 rounded-full bg-white opacity-0 peer-checked:opacity-100"></div>
+</div>
+<span class="ml-4 text-slate-700 dark:text-slate-300 font-medium peer-checked:text-primary transition-colors">
+                                Using only high-contrast colors like black and white for readability.
+                            </span>
+</label>
+<!-- Option 4 -->
+<label class="group relative flex items-center p-5 rounded-xl border-2 border-slate-100 dark:border-slate-800 cursor-pointer hover:border-primary/50 transition-all bg-slate-50/30 dark:bg-slate-800/20">
+<input class="hidden peer" name="quiz-option" type="radio"/>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 peer-checked:border-primary peer-checked:bg-primary flex items-center justify-center transition-colors">
+<div class="w-2 h-2 rounded-full bg-white opacity-0 peer-checked:opacity-100"></div>
+</div>
+<span class="ml-4 text-slate-700 dark:text-slate-300 font-medium peer-checked:text-primary transition-colors">
+                                Randomly placing elements to encourage user exploration and discovery.
+                            </span>
+</label>
+</div>
+</div>
+<!-- Footer Navigation -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 mt-2">
+<div class="flex gap-3 w-full sm:w-auto">
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-bold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+                            Previous
+                        </button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-bold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+                            Skip
+                        </button>
+</div>
+<button class="w-full sm:w-auto flex items-center justify-center gap-2 px-10 py-3 rounded-lg font-bold bg-primary text-white hover:opacity-90 transition-opacity shadow-lg shadow-primary/20">
+                        Next Question
+                        <span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Mobile Sticky Progress (Visible only on small screens) -->
+<div class="lg:hidden sticky bottom-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 p-4">
+<div class="flex items-center justify-between max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="text-sm font-bold text-primary">Question 3 of 10</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-bold">
+<span class="material-symbols-outlined text-sm">timer</span>
+<span class="text-sm">14:32</span>
+</div>
+</div>
+</div>
+</div>
+</body></html>

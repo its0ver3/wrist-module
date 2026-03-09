@@ -1,0 +1,265 @@
+{
+  "id": "tfcc-injury",
+  "title": "TFCC Injury",
+  "subtitle": "Triangular Fibrocartilage Complex Injury",
+  "moduleId": 4,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "info",
+      "bloomLevel": "Remember",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "TFCC injuries are one of the most common causes of ulnar wrist pain."
+        },
+        {
+          "type": "heading",
+          "text": "Traumatic Onset"
+        },
+        {
+          "type": "list",
+          "items": [
+            "FOOSH on an extended wrist",
+            "Rotational injury — wrist twisted into hypersupination"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Degenerative / Repetitive Onset"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Repetitive ulnar deviation",
+            "Repetitive combined extension and pronation"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "The TFCC is poorly vascularised. This has implications for healing time (slow) and edema presentation (rare without combined injury such as fracture)."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "icon": "history_edu",
+      "bloomLevel": "Understand",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Deep ulnar-sided wrist pain",
+            "Worse with weight bearing on hands or carrying heavy objects (strong traction)",
+            "Pain or difficulty with end-range pronation, wrist extension, or ulnar deviation",
+            "Wrist may feel unstable"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "text": "Edema following TFCC injury is rare and normally only occurs as a result of a combined injury (such as fracture with TFCC injury)."
+        },
+        {
+          "type": "heading",
+          "text": "Key Questions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Did you hear a snap or pop?",
+            "Were you able to continue activity?",
+            "Does the wrist click, lock, or catch?",
+            "Does the wrist feel unstable? Are you able to bear weight through the wrist?",
+            "Did your wrist become swollen and if so, how badly and for how long?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-assessments",
+      "title": "Physical Assessments",
+      "icon": "biotech",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "heading",
+          "text": "ROM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AROM may provoke pain at end-range pronation and ulnar deviation",
+            "PROM: overpressure of pronation and ulnar deviation most likely to provoke",
+            "RROM may show weakness due to pain or inhibition"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "End range of radial deviation should NOT provoke pain in TFCC injury. If ulnar-sided wrist pain occurs with overpressure of radial deviation, it is more suggestive of an ulnar collateral ligament of the wrist sprain."
+        },
+        {
+          "type": "heading",
+          "text": "Muscle Testing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle testing may be used to rule out injury to FCU or ECU"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Special Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ulnocarpal stress test is positive",
+            "Ulnar impaction test is positive"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Functional Tests"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ability to bear weight through the wrist is significantly reduced (e.g. leaning on hands, push-ups)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Differentials"
+        },
+        {
+          "type": "list",
+          "items": [
+            "FCU or ECU tendinopathy",
+            "Ulnar impaction syndrome",
+            "Distal radioulnar sprains"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Management",
+      "icon": "medical_services",
+      "bloomLevel": "Apply",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Wrist support — braces or orthoses to offload the TFCC",
+            "TFCC is a slow-healing tissue — braces/splints may be needed for months",
+            "Once symptoms allow: ROM exercises, followed by gradual progressive strengthening",
+            "No particular muscle to emphasise — strengthen all muscles crossing the wrist",
+            "Most caution with: weight bearing, ulnar deviation, pronation, and extension"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "NSAIDs or corticosteroid injections may be prescribed. If conservative rehab is unsuccessful, surgery may be performed."
+        }
+      ]
+    },
+    {
+      "id": "massage-treatment",
+      "title": "Massage Treatment",
+      "icon": "spa",
+      "bloomLevel": "Analyze",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Treatment Goals"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Restore neuromuscular control and resting muscle tone of the muscles around the joint",
+            "Restore normal range of motion of the wrist",
+            "Treat compensatory structures to restore overall function"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Specific Techniques"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Promote normal resting muscle tone of all muscles through the forearm",
+            "Decrease trigger point activity in the forearm and hand",
+            "Promote normal joint play with pain-free mid-range PROM of the wrist"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Cautions",
+          "text": "Avoid joint mobilisation if wrist is unstable. Do not perform axial compression or overpressure in ulnar deviation, extension, or pronation. Avoid joint play of the medial carpals. Use caution with distraction — if carrying heavy objects causes pain, do not attempt traction/distraction."
+        }
+      ]
+    },
+    {
+      "id": "expected-outcomes",
+      "title": "Expected Outcomes",
+      "icon": "trending_up",
+      "bloomLevel": "Evaluate",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Prognosis for a TFCC injury is unclear and difficult to provide. Anecdotal experiences range from weeks to over a year of requiring joint support and activity modification."
+        },
+        {
+          "type": "heading",
+          "text": "Clinical Impression Format"
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "text": "Should include: onset (traumatic or gradual) and chronicity. Examples: 'Consistent with TFCC injury from traumatic onset since 6 weeks' or 'Consistent with gradual onset TFCC injury since 3 months.'"
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "If ulnar-sided wrist pain occurs with overpressure of radial deviation, what does this suggest?",
+      "options": [
+        "TFCC injury",
+        "Ulnar collateral ligament of the wrist sprain",
+        "ECU tendinopathy",
+        "De Quervain's tenosynovitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "End range of radial deviation should NOT provoke pain in TFCC injury. If ulnar-sided wrist pain occurs with overpressure of radial deviation, it is more suggestive of an ulnar collateral ligament of the wrist sprain."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which two special tests are positive in TFCC injury?",
+      "options": [
+        "Finkelstein test and Phalen's test",
+        "UCL stress test and grind test",
+        "Ulnocarpal stress test and ulnar impaction test",
+        "Tinel's sign and Phalen's test"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ulnocarpal stress test and ulnar impaction test are positive in TFCC injury."
+    },
+    {
+      "type": "true_false",
+      "question": "Significant edema is a common presentation of an isolated TFCC injury.",
+      "correctAnswer": false,
+      "explanation": "Edema following TFCC injury is rare and normally only occurs as a result of a combined injury such as a fracture with TFCC injury."
+    }
+  ]
+}
