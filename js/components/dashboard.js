@@ -10,16 +10,16 @@ const Dashboard = {
     const lastVisited = Storage.getLastVisited();
 
     const colorMap = {
-      emerald: { bg: 'bg-emerald-500', light: 'bg-emerald-50 dark:bg-emerald-900/20', text: 'text-emerald-600 dark:text-emerald-400', border: 'border-emerald-200 dark:border-emerald-800' },
-      blue: { bg: 'bg-blue-500', light: 'bg-blue-50 dark:bg-blue-900/20', text: 'text-blue-600 dark:text-blue-400', border: 'border-blue-200 dark:border-blue-800' },
-      purple: { bg: 'bg-purple-500', light: 'bg-purple-50 dark:bg-purple-900/20', text: 'text-purple-600 dark:text-purple-400', border: 'border-purple-200 dark:border-purple-800' },
-      rose: { bg: 'bg-rose-500', light: 'bg-rose-50 dark:bg-rose-900/20', text: 'text-rose-600 dark:text-rose-400', border: 'border-rose-200 dark:border-rose-800' }
+      emerald: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400', border: 'border-primary/20 dark:border-primary/30' },
+      blue: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400', border: 'border-primary/20 dark:border-primary/30' },
+      purple: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400', border: 'border-primary/20 dark:border-primary/30' },
+      rose: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400', border: 'border-primary/20 dark:border-primary/30' }
     };
 
     app.innerHTML = `
       <section class="mb-10">
         <div class="relative overflow-hidden rounded-xl bg-slate-900 text-white p-8 md:p-12">
-          <div class="absolute inset-0 opacity-20 bg-gradient-to-br from-primary to-purple-600"></div>
+          <div class="absolute inset-0 opacity-20 bg-gradient-to-br from-primary to-blue-800"></div>
           <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div class="max-w-xl text-center md:text-left">
               <h1 class="text-3xl md:text-4xl font-black mb-3 leading-tight">Wrist Conditions Learning Modules</h1>
@@ -147,7 +147,7 @@ const Dashboard = {
     }
 
     return `
-      <div class="bg-gradient-to-r from-primary/10 to-purple-500/10 border border-primary/20 rounded-xl p-6 cursor-pointer hover:shadow-lg transition-all"
+      <div class="bg-gradient-to-r from-primary/10 to-blue-800/10 border border-primary/20 rounded-xl p-6 cursor-pointer hover:shadow-lg transition-all"
         onclick="window.location.hash='#/final-quiz'">
         <div class="flex items-center gap-4">
           <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center">

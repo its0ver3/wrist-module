@@ -13,10 +13,10 @@ const ModuleView = {
     const isRecommended = this._isRecommendedModule(moduleData, allModules);
 
     const colorMap = {
-      emerald: { bg: 'bg-emerald-500', light: 'bg-emerald-50 dark:bg-emerald-900/20', text: 'text-emerald-600 dark:text-emerald-400' },
-      blue: { bg: 'bg-blue-500', light: 'bg-blue-50 dark:bg-blue-900/20', text: 'text-blue-600 dark:text-blue-400' },
-      purple: { bg: 'bg-purple-500', light: 'bg-purple-50 dark:bg-purple-900/20', text: 'text-purple-600 dark:text-purple-400' },
-      rose: { bg: 'bg-rose-500', light: 'bg-rose-50 dark:bg-rose-900/20', text: 'text-rose-600 dark:text-rose-400' }
+      emerald: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400' },
+      blue: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400' },
+      purple: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400' },
+      rose: { bg: 'bg-primary', light: 'bg-primary/10 dark:bg-primary/15', text: 'text-primary dark:text-blue-400' }
     };
     const colors = colorMap[moduleData.color] || colorMap.blue;
 
