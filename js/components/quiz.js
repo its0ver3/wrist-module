@@ -50,25 +50,6 @@ const Quiz = {
       return;
     }
 
-    // Check if all modules are complete
-    const allComplete = modules.every(m => m.lessons.every(l => Storage.isLessonComplete(l.id)));
-    if (!allComplete) {
-      app.innerHTML = `
-        <div class="max-w-2xl mx-auto text-center py-20">
-          <div class="w-20 h-20 bg-slate-100 dark:bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="material-symbols-outlined text-4xl text-slate-400">lock</span>
-          </div>
-          <h1 class="text-2xl font-bold mb-4">Final Assessment Locked</h1>
-          <p class="text-slate-500 mb-8">Complete all sub-module quizzes before attempting the final assessment.</p>
-          <a href="#/" class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-bold hover:bg-primary/90 transition-all">
-            <span class="material-symbols-outlined">arrow_back</span>
-            Back to Dashboard
-          </a>
-        </div>
-      `;
-      return;
-    }
-
     const existingScore = Storage.getFinalQuizScore();
     // Shuffle questions
     const shuffled = [...quizData.questions].sort(() => Math.random() - 0.5);

@@ -127,24 +127,7 @@ const Dashboard = {
   },
 
   _renderFinalQuizCard(modules, stats) {
-    const allComplete = modules.every(m => Progress.isModuleComplete(m));
     const finalScore = Storage.getFinalQuizScore();
-
-    if (!allComplete) {
-      return `
-        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-6 opacity-75">
-          <div class="flex items-center gap-4">
-            <div class="w-12 h-12 bg-slate-100 dark:bg-slate-800 rounded-lg flex items-center justify-center">
-              <span class="material-symbols-outlined text-slate-400">lock</span>
-            </div>
-            <div>
-              <h3 class="font-bold text-lg">Final Comprehensive Assessment</h3>
-              <p class="text-sm text-slate-500">Complete all ${stats.totalLessons} lessons to unlock (${stats.completedLessons}/${stats.totalLessons} done)</p>
-            </div>
-          </div>
-        </div>
-      `;
-    }
 
     return `
       <div class="bg-gradient-to-r from-primary/10 to-blue-800/10 border border-primary/20 rounded-xl p-6 cursor-pointer hover:shadow-lg transition-all"
